@@ -1,0 +1,16 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Wy&#347;wietlanie zmiennej umieszczonej na ko&#324;cu adresu: {{ zmienna }}{% endblock %}
+{% block stylesheets %}
+    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+{% endblock %}
+
+{% block body %}
+
+Zmienna umieszczona na ko&#324;cu adresu to: <h1>{{ zmienna }}</h1>
+{% block javascripts %}
+    <script src="{{ asset('js/jquery.min.js') }}"></script>
+    <script src="{{ asset('js/main.js') }}"></script>
+{% endblock %}
+{% endblock %}
