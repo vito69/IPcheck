@@ -15,6 +15,9 @@ function checkCookie() {
         document.getElementById("cookie").style.display = "block";
     }
 }
+window.onload = function() {
+    checkCookie();
+}
 function cookieFunction() {
     document.getElementById("cookie").style.display = "none";
     document.cookie = "cookiesy=cookiesy";

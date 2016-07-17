@@ -1,12 +1,40 @@
 body{
-    background-color: orange;
-    padding: 25px;
+    background: linear-gradient(
+            to bottom,
+            #fa0,
+            #ffaa00
+    );
     font-size: 200%;
 }
 button{
     border: none;
     min-height: 30px;
     min-width: 30px;
+}
+.container{
+    padding-left: 25px;
+}
+.well{
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.6);
+}
+#cookie{
+    color: antiquewhite;
+    padding: 10px;
+    float: left;
+    clear: both;
+    position: fixed;
+}
+.transparent{
+    background-color: rgba(0,0,0,0.75);
+    color: whitesmoke;
+    padding: 10px;
+    box-shadow: 10px 10px 10px black;
+}
+.buttons{
+    display: none;
+}
+.clear{
+    clear:left;
 }
 .red{
     background-color: red;
@@ -31,4 +59,5 @@ button{
 }
 h1{
     color: white;
+    text-shadow: -1px -1px 1px #000, 1px 1px 1px #ccc;
 }
