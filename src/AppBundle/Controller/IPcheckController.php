@@ -51,9 +51,14 @@ class IPcheckController extends Controller
         if (isset($_SERVER['HTTP_X_FORWARDED_FOR']) && ($_SERVER['HTTP_X_FORWARDED_FOR']!= $_SERVER['REMOTE_ADDR'])) {
             $proxy = $_SERVER['HTTP_X_FORWARDED_FOR'];
         }
-        function IsTorExitPoint(){
-            if (gethostbyname(reverseIPOctets($_SERVER['REMOTE_ADDR']).".".$_SERVER['SERVER_PORT'].".".reverseIPOctets($_SERVER['SERVER_ADDR']).".ip-port.exitlist.torproject.org")=="127.0.0.2") {
-                return true;
+        function IsTorExitPoint()
+        {
+            if (isset($_SERVER['SERVER_ADDR'])) {
+                if (gethostbyname(reverseIPOctets($_SERVER['REMOTE_ADDR']) . "." . $_SERVER['SERVER_PORT'] . "." . reverseIPOctets($_SERVER['SERVER_ADDR']) . ".ip-port.exitlist.torproject.org") == "127.0.0.2") {
+                    return true;
+                } else {
+                    return false;
+                }
             } else {
                 return false;
             }

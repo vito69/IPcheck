@@ -16,11 +16,9 @@
     <h1>Przegl&#261;darka: </h1>
         <div class='well'>
             <ul><li>{{ przegladarka }}</li></ul>
-            {% block javascripts %}
             <script>
                 document.write("JavaScript:<ul><li> jest w&#322;&#261;czony</li></ul>");
             </script>
-            {% endblock %}
             <noscript>
                 JavaScript:<ul><li> jest wy&#322;&#261;czony</li></ul>
             </noscript>
