@@ -13,7 +13,22 @@
         <button class='transparent' onclick="cookieFunction()">X</button>
     </div>
     <h1>Tw&#243;j adres IP: </h1><div class='well'>{{ ipaddress }}<p style='float: right'>TOR: {{ tor }}</p></div>
-    <h1>Przegl&#261;darka: </h1><div class='well'>{{ przegladarka }}</div>
+    <h1>Przegl&#261;darka: </h1>
+        <div class='well'>
+            <ul><li>{{ przegladarka }}</li></ul>
+            {% block javascripts %}
+            <script>
+                document.write("JavaScript:<ul><li> jest w&#322;&#261;czony</li></ul>");
+            </script>
+            {% endblock %}
+            <noscript>
+                JavaScript:<ul><li> jest wy&#322;&#261;czony</li></ul>
+            </noscript>
+            Akceptowane dokumenty:<ul><li>{{ dokumenty }}</li></ul>
+            Akceptowane jezyki:<ul><li>{{ jezyki }}</li></ul>
+            Akceptowane kodowanie znak&#243;w:<ul><li>{{ kodowanie }}</li></ul>
+            Ciasteczka<ul><li>{{ ciastka | raw }}</li></ul>
+        </div>
     <h1>ISP: </h1>
     {{ isp | raw }}
     </div>

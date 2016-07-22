@@ -23,6 +23,19 @@ class IPcheckController extends Controller
         if (isset($_SERVER['HTTP_USER_AGENT'])){
             $przegladarka = $_SERVER['HTTP_USER_AGENT'];
         }
+        if (isset($_SERVER['HTTP_ACCEPT'])){
+            $dokumenty = $_SERVER['HTTP_ACCEPT'];
+        }
+        if (isset($_SERVER['HTTP_ACCEPT_LANGUAGE'])){
+            $jezyki = $_SERVER['HTTP_ACCEPT_LANGUAGE'];
+        }
+        if (isset($_SERVER['HTTP_ACCEPT_ENCODING'])){
+            $kodowanie = $_SERVER['HTTP_ACCEPT_ENCODING'];
+        }
+        if (isset($_SERVER['HTTP_COOKIE'])){
+            $ciastka = str_replace(";", "</li><li>", $_SERVER['HTTP_COOKIE']);
+        }
+
         $fp = file_get_contents("http://rest.db.ripe.net/search.xml?query-string=".$_SERVER['REMOTE_ADDR']."&flags=no-filtering");
         if($fp) {
             $xml = simplexml_load_string($fp);
@@ -37,9 +50,6 @@ class IPcheckController extends Controller
         }
         if (isset($_SERVER['HTTP_X_FORWARDED_FOR']) && ($_SERVER['HTTP_X_FORWARDED_FOR']!= $_SERVER['REMOTE_ADDR'])) {
             $proxy = $_SERVER['HTTP_X_FORWARDED_FOR'];
-            return $this->render('IPcheck/show.html.twig', array(
-                'ipaddress' => $ipaddress, 'proxy' => $proxy, 'przegladarka' => $przegladarka, 'ips' => $isp
-            ));
         }
         function IsTorExitPoint(){
             if (gethostbyname(reverseIPOctets($_SERVER['REMOTE_ADDR']).".".$_SERVER['SERVER_PORT'].".".reverseIPOctets($_SERVER['SERVER_ADDR']).".ip-port.exitlist.torproject.org")=="127.0.0.2") {
@@ -53,12 +63,13 @@ class IPcheckController extends Controller
             return $ipoc[3].".".$ipoc[2].".".$ipoc[1].".".$ipoc[0];
         }
         if(IsTorExitPoint()){
-            $tor = 'Yes.';
+            $tor = 'yes';
         }else{
-            $tor = 'No.';
+            $tor = 'no';
         }
         return $this->render('IPcheck/show.html.twig', array(
-            'ipaddress' => $ipaddress, 'przegladarka' => $przegladarka, 'isp' => $isp, 'tor' => $tor
+            'ipaddress' => $ipaddress, 'przegladarka' => $przegladarka, 'isp' => $isp, 'tor' => $tor,
+            'dokumenty' => $dokumenty, 'jezyki' => $jezyki, 'kodowanie' => $kodowanie, 'ciastka' => $ciastka
         ));
         //$number = rand(0, 100);
     }
