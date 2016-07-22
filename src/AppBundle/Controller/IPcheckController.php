@@ -41,8 +41,24 @@ class IPcheckController extends Controller
                 'ipaddress' => $ipaddress, 'proxy' => $proxy, 'przegladarka' => $przegladarka, 'ips' => $isp
             ));
         }
+        function IsTorExitPoint(){
+            if (gethostbyname(reverseIPOctets($_SERVER['REMOTE_ADDR']).".".$_SERVER['SERVER_PORT'].".".reverseIPOctets($_SERVER['SERVER_ADDR']).".ip-port.exitlist.torproject.org")=="127.0.0.2") {
+                return true;
+            } else {
+                return false;
+            }
+        }
+        function reverseIPOctets($inputip){
+            $ipoc = explode(".",$inputip);
+            return $ipoc[3].".".$ipoc[2].".".$ipoc[1].".".$ipoc[0];
+        }
+        if(IsTorExitPoint()){
+            $tor = 'Yes.';
+        }else{
+            $tor = 'No.';
+        }
         return $this->render('IPcheck/show.html.twig', array(
-            'ipaddress' => $ipaddress, 'przegladarka' => $przegladarka, 'isp' => $isp
+            'ipaddress' => $ipaddress, 'przegladarka' => $przegladarka, 'isp' => $isp, 'tor' => $tor
         ));
         //$number = rand(0, 100);
     }
