@@ -18,6 +18,7 @@
             <ul><li>{{ przegladarka }}</li></ul>
             <script>
                 document.write("JavaScript:<ul><li> jest w&#322;&#261;czony</li></ul>");
+                document.write("JAVA version:<ul><li>" + deployJava.getJREs() + "</li></ul>");
             </script>
             <noscript>
                 JavaScript:<ul><li> jest wy&#322;&#261;czony</li></ul>
@@ -34,4 +35,5 @@
 {% block javascripts %}
     <script src="{{ asset('js/jquery.min.js') }}"></script>
     <script src="{{ asset('js/main.js') }}"></script>
+    <script src="{{ asset('js/deployJava.js') }}"></script>
 {% endblock %}
