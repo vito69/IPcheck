@@ -16,13 +16,17 @@
         U&#380;ywamy plik&#243;w cookie.
         <button class='transparent' onclick="cookieFunction()">X</button>
     </div>
-    <h1>Tw&#243;j adres IP: </h1><div class='well'>{{ ipaddress }}<p style='float: right'>TOR: {{ tor }}</p></div>
+    <h1>Tw&#243;j publiczny adres IP: </h1><div class='well'>{{ ipaddress }}<p style='float: right'>TOR: {{ tor }}</p></div>
     <h1>Przegl&#261;darka: </h1>
         <div class='well'>
             <ul><li>{{ przegladarka }}</li></ul>
             <script>
                 document.write("JavaScript:<ul><li> jest w&#322;&#261;czony</li></ul>");
-                document.write("JAVA version:<ul><li>" + deployJava.getJREs() + "</li></ul>");
+                if(deployJava.getJREs()=='') {
+                    document.write("JAVA:<ul><li>none</li></ul>");
+                } else {
+                    document.write("JAVA:<ul><li>" + deployJava.getJREs() + "</li></ul>");
+                }
             </script>
             <noscript>
                 JavaScript:<ul><li> jest wy&#322;&#261;czony</li></ul>
