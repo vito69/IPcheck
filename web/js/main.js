@@ -22,6 +22,15 @@ function cookieFunction() {
     document.getElementById("cookie").style.display = "none";
     document.cookie = "cookiesy=cookiesy";
 }
+function jestJava() {
+    var jestJ = '';
+    if(deployJava.getJREs()=='') {
+        jestJ = 'none';
+    } else {
+        jestJ = deployJava.getJREs();
+    }
+    return jestJ;
+}
 $(document).ready(function(){
     $(".red").mouseover(function(){
         $("body").css("background-color", "red");

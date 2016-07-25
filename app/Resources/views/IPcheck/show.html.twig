@@ -22,11 +22,7 @@
             <ul><li>{{ przegladarka }}</li></ul>
             <script>
                 document.write("JavaScript:<ul><li> jest w&#322;&#261;czony</li></ul>");
-                if(deployJava.getJREs()=='') {
-                    document.write("JAVA:<ul><li>none</li></ul>");
-                } else {
-                    document.write("JAVA:<ul><li>" + deployJava.getJREs() + "</li></ul>");
-                }
+                document.write("JAVA:<ul><li>" + jestJava() + "</li></ul>");
             </script>
             <noscript>
                 JavaScript:<ul><li> jest wy&#322;&#261;czony</li></ul>
