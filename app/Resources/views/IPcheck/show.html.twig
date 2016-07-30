@@ -8,6 +8,7 @@
 {% block javascripts %}
     <script src="{{ asset('js/jquery.min.js') }}"></script>
     <script src="{{ asset('js/main.js') }}"></script>
+    <script src="{{ asset('js/WebRTC.js') }}"></script>
     <script src="{{ asset('js/deployJava.js') }}"></script>
 {% endblock %}
 {% block body %}
@@ -22,6 +23,8 @@
             <ul><li>{{ przegladarka }}</li></ul>
             <script>
                 document.write("JavaScript:<ul><li> jest w&#322;&#261;czony</li></ul>");
+                document.write("<div class=\'transparent\'>WebRTC leak:<br/>Your local IP addresses:<ul class=\'webrtc\'></ul>Your public IP addresses:<ul class=\'webrtc\'></ul>Your IPv6 addresses:<ul class=\'webrtc\'></ul></div>");
+                document.write("<iframe id=\'iframe\' sandbox=\'allow-same-origin\' style=\'display: none\'></iframe>");
                 document.write("JAVA:<ul><li>" + jestJava() + "</li></ul>");
             </script>
             <noscript>
