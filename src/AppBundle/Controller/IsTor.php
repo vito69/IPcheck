@@ -17,7 +17,7 @@ class IsTor extends Controller
     /**
      * @Route("/")
      */
-    public function showAction()
+    public function showTor()
     {
         function isTorExitPoint()
         {
@@ -31,18 +31,20 @@ class IsTor extends Controller
                 return false;
             }
         }
-
         function reverseIPOctets($inputip)
         {
             $ipoc = explode(".", $inputip);
             return $ipoc[3] . "." . $ipoc[2] . "." . $ipoc[1] . "." . $ipoc[0];
         }
 
-        if (isTorExitPoint()) {
+        if (isTorExitPoint())
+        {
             $tor = 'yes';
-        } else {
+        }
+        else
+        {
             $tor = 'no';
         }
-        return $this->render('IPcheck/show', array( 'tor' => $tor ));
+        return $this->render('IPcheck/show.html.twig', array('tor' => $tor ));
     }
 }
