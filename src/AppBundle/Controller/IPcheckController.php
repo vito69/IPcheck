@@ -51,30 +51,10 @@ class IPcheckController extends Controller
         if (isset($_SERVER['HTTP_X_FORWARDED_FOR']) && ($_SERVER['HTTP_X_FORWARDED_FOR']!= $_SERVER['REMOTE_ADDR'])) {
             $proxy = $_SERVER['HTTP_X_FORWARDED_FOR'];
         }
-        function IsTorExitPoint()
-        {
-            if (isset($_SERVER['SERVER_ADDR'])) {
-                if (gethostbyname(reverseIPOctets($_SERVER['REMOTE_ADDR']) . "." . $_SERVER['SERVER_PORT'] . "." . reverseIPOctets($_SERVER['SERVER_ADDR']) . ".ip-port.exitlist.torproject.org") == "127.0.0.2") {
-                    return true;
-                } else {
-                    return false;
-                }
-            } else {
-                return false;
-            }
-        }
-        function reverseIPOctets($inputip){
-            $ipoc = explode(".",$inputip);
-            return $ipoc[3].".".$ipoc[2].".".$ipoc[1].".".$ipoc[0];
-        }
-        if(IsTorExitPoint()){
-            $tor = 'yes';
-        }else{
-            $tor = 'no';
-        }
         return $this->render('IPcheck/show.html.twig', array(
-            'ipaddress' => $ipaddress, 'przegladarka' => $przegladarka, 'isp' => $isp, 'tor' => $tor,
-            'dokumenty' => $dokumenty, 'jezyki' => $jezyki, 'kodowanie' => $kodowanie, 'ciastka' => $ciastka
+            'ipaddress' => $ipaddress, 'przegladarka' => $przegladarka, 'isp' => $isp,
+            'dokumenty' => $dokumenty, 'jezyki' => $jezyki, 'kodowanie' => $kodowanie,
+            'ciastka' => $ciastka
         ));
         //$number = rand(0, 100);
     }
