@@ -38,13 +38,11 @@ class IsTor extends Controller
             return $ipoc[3] . "." . $ipoc[2] . "." . $ipoc[1] . "." . $ipoc[0];
         }
 
-        if (IsTorExitPoint()) {
+        if (isTorExitPoint()) {
             $tor = 'yes';
         } else {
             $tor = 'no';
         }
-        return $this->render('IPcheck/show.html.twig', array(
-            'tor' => $tor
-        ));
+        return $this->render('IPcheck/show', array( 'tor' => $tor ));
     }
 }
