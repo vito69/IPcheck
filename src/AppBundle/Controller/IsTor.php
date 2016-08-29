@@ -45,6 +45,6 @@ class IsTor extends Controller
         {
             $tor = 'no';
         }
-        return $tor;
+        return $this->render('IPcheck/show.html.twig', array('tor' => $tor ));
     }
 }
