@@ -53,7 +53,7 @@ class IPcheckController extends Controller
         if (isset($_SERVER['HTTP_X_FORWARDED_FOR']) && ($_SERVER['HTTP_X_FORWARDED_FOR']!= $_SERVER['REMOTE_ADDR'])) {
             $proxy = $_SERVER['HTTP_X_FORWARDED_FOR'];
         }
-        $tor = new IsTor();
+        $tor = new IsTor.showTor();
 
         return $this->render('IPcheck/show.html.twig', array(
             'ipaddress' => $ipaddress, 'przegladarka' => $przegladarka, 'isp' => $isp, 'tor' => $tor,
