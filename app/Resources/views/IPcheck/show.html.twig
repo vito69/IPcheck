@@ -17,6 +17,7 @@
         U&#380;ywamy plik&#243;w cookie.
         <button class='transparent' onclick="cookieFunction()">X</button>
     </div>
+    <div class='la'></div>
     <h1>Tw&#243;j publiczny adres IP: </h1><div class='well'>{{ ipaddress }}<p style='float: right'>TOR: {{ tor }}</p></div>
     <h1>Przegl&#261;darka: </h1>
         <div class='well'>
@@ -48,7 +49,7 @@
                 document.write("Twoja przeg&#261;darka i system z JavaScript:<ul><li>" + navigator.userAgent + "</li></ul>");
                 document.write("Przegladarka na system:<ul><li>" + navigator.platform + "</li></ul>");
                 document.write("Java enable:<ul><li>" + navigator.javaEnabled() + "</li></ul>");
-                document.write("JAVA:<ul><li>" + jestJava() + "</li></ul>");
+                document.write("<ul><li>" + jestJava() + "</li></ul>");
                 document.write("</div>");
             </script>
             <noscript>

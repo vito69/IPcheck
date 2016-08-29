@@ -15,7 +15,7 @@ button{
     padding-left: 25px;
 }
 .well{
-    box-shadow: 0px 10px 25px rgba(0,0,0,0.6);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.6);
     word-wrap:break-word;
 }
 #cookie{
@@ -36,6 +36,19 @@ button{
 .clear{
     clear:left;
 }
+
+.la{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 50px;
+    background: #f00;
+    -webkit-transform: translateX(25%) translateY(125%) rotate(45deg);
+    transform: translateX(25%) translateY(125%) rotate(45deg);
+    pointer-events: none;
+}
+
 .red{
     background-color: red;
 }
