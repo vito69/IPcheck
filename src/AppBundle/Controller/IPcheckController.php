@@ -6,6 +6,8 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
+use AppBundle\Controller\IsTor;
+
 class IPcheckController extends Controller
 {
     /**
@@ -45,26 +47,9 @@ class IPcheckController extends Controller
         if (isset($_SERVER['HTTP_X_FORWARDED_FOR']) && ($_SERVER['HTTP_X_FORWARDED_FOR']!= $_SERVER['REMOTE_ADDR'])) {
             $proxy = $_SERVER['HTTP_X_FORWARDED_FOR'];
         }
-        function IsTorExitPoint($serAddr, $serRemAddr, $serPort)
-        {
-            function reverseIPOctets($inputip)
-            {
-                $ipoc = explode(".",$inputip);
-                return $ipoc[3].".".$ipoc[2].".".$ipoc[1].".".$ipoc[0];
-            }
-            if (isset($serAddr))
-            {
-                if (gethostbyname(reverseIPOctets($serRemAddr) . "." . $serPort . "." . reverseIPOctets($serAddr) . ".ip-port.exitlist.torproject.org") == "127.0.0.2") {
-                    return true;
-                } else {
-                    return false;
-                }
-            } else {
-                return false;
-            }
-        }
 
-        (IsTorExitPoint($_SERVER['SERVER_ADDR'], $_SERVER['REMOTE_ADDR'], $_SERVER['SERVER_PORT'])==true) ? $tor = 'yes' : $tor = 'no';
+        $torr = new IsTor();
+        ($torr.IsTorExitPoint($_SERVER['SERVER_ADDR'], $_SERVER['REMOTE_ADDR'], $_SERVER['SERVER_PORT'])==true) ? $tor = 'yes' : $tor = 'no';
 
         return $this->render('IPcheck/show.html.twig', array(
             'ipaddress' => $ipaddress, 'przegladarka' => $przegladarka, 'isp' => $isp, 'tor' => $tor,
