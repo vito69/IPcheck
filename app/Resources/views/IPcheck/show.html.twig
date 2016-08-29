@@ -25,6 +25,16 @@
                 document.write("JavaScript:<ul><li> jest w&#322;&#261;czony</li></ul>");
                 document.write("<div class=\'transparent\'>WebRTC leak:<br/>Your local IP addresses:<ul class=\'webrtc\'></ul>Your public IP addresses:<ul class=\'webrtc\'></ul>Your IPv6 addresses:<ul class=\'webrtc\'></ul></div>");
                 document.write("<iframe id=\'iframe\' sandbox=\'allow-same-origin\' style=\'display: none\'></iframe>");
+                document.write("<br />Rozdzielczo&#347;&#263; ekranu: " + screen.width + " x " + screen.height + "<br />" + "Available screen: ",window.screen.availWidth + " x " + window.screen.availHeight);
+                scDepth = screen.colorDepth;
+                if( self.screen ) {
+                    numbage = screen.pixelDepth
+                            ? Math.pow( 2, screen.pixelDepth ) // in N4
+                            : Math.pow( 2, screen.colorDepth ) // in E4
+                }
+                else { numbage = "" }
+                document.write("<br />U&#380;ywasz: " + numbage + " Kolor&#243;w<br /> Glebia kolor&#243;w: " + scDepth + " bit <br />")
+                document.write("Twoja przeg&#261;darka i system z JavaScript:<br />" + navigator.userAgent + "<br />Przegladarka na system: " + navigator.platform + "<br />Java enable: " + navigator.javaEnabled() + "<br />")
                 document.write("JAVA:<ul><li>" + jestJava() + "</li></ul>");
             </script>
             <noscript>
