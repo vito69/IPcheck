@@ -50,7 +50,19 @@ button{
     font-size: 75%;
     text-align: center;
 }
-
+.arrow-right {
+    position: absolute;
+    top: 50px;
+    width: 30px;
+    right: 50%;
+    margin-left: -15px;
+    -webkit-animation: fadeInOut 2s infinite;
+}
+@-webkit-keyframes fadeInOut {
+    from { opacity: 0.2; }
+    50% { opacity: 1.0; }
+    to { opacity: 0.2; }
+}
 .red{
     background-color: red;
 }
