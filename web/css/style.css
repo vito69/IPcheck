@@ -47,7 +47,7 @@ button{
     -webkit-transform: translateX(25%) translateY(125%) rotate(45deg);
     transform: translateX(25%) translateY(125%) rotate(45deg);
     pointer-events: none;
-    font-size: 100%;
+    font-size: 50%;
 }
 
 .red{
