@@ -42,10 +42,10 @@ button{
     top: 0;
     right: 0;
     width: 200px;
-    height: 18px;
+    height: 20px;
     background: #0f0;
-    -webkit-transform: translateX(20%) translateY(125%) rotate(45deg);
-    transform: translateX(20%) translateY(125%) rotate(45deg);
+    -webkit-transform: translateX(20%) translateY(175%) rotate(45deg);
+    transform: translateX(20%) translateY(175%) rotate(45deg);
     pointer-events: none;
     font-size: 60%;
     text-align: center;
