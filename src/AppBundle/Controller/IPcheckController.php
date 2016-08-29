@@ -45,16 +45,16 @@ class IPcheckController extends Controller
         if (isset($_SERVER['HTTP_X_FORWARDED_FOR']) && ($_SERVER['HTTP_X_FORWARDED_FOR']!= $_SERVER['REMOTE_ADDR'])) {
             $proxy = $_SERVER['HTTP_X_FORWARDED_FOR'];
         }
-        function IsTorExitPoint()
+        function IsTorExitPoint($serAddr, $serRemAddr, $serPort)
         {
             function reverseIPOctets($inputip)
             {
                 $ipoc = explode(".",$inputip);
                 return $ipoc[3].".".$ipoc[2].".".$ipoc[1].".".$ipoc[0];
             }
-            if (isset($_SERVER['SERVER_ADDR']))
+            if (isset($serAddr))
             {
-                if (gethostbyname(reverseIPOctets($_SERVER['REMOTE_ADDR']) . "." . $_SERVER['SERVER_PORT'] . "." . reverseIPOctets($_SERVER['SERVER_ADDR']) . ".ip-port.exitlist.torproject.org") == "127.0.0.2") {
+                if (gethostbyname(reverseIPOctets($serRemAddr) . "." . $serPort . "." . reverseIPOctets($serAddr) . ".ip-port.exitlist.torproject.org") == "127.0.0.2") {
                     return true;
                 } else {
                     return false;
@@ -64,7 +64,7 @@ class IPcheckController extends Controller
             }
         }
 
-        (IsTorExitPoint()==true) ? $tor = 'yes' : $tor = 'no';
+        (IsTorExitPoint($_SERVER['SERVER_ADDR'], $_SERVER['REMOTE_ADDR'], $_SERVER['SERVER_PORT'])==true) ? $tor = 'yes' : $tor = 'no';
 
         return $this->render('IPcheck/show.html.twig', array(
             'ipaddress' => $ipaddress, 'przegladarka' => $przegladarka, 'isp' => $isp, 'tor' => $tor,
