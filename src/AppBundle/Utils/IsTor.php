@@ -1,10 +1,10 @@
 <?php
 
-namespace AppBundle\Controller;
+namespace AppBundle\Utils;
 
 class IsTor
 {
-    function IsTorExitPoint($serAddr, $serRemAddr, $serPort)
+    function isTorExitPoint($serAddr, $serRemAddr, $serPort)
     {
         function reverseIPOctets($inputip)
         {

@@ -6,7 +6,7 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
-use AppBundle\Controller\IsTor;
+use AppBundle\Utils\IsTor;
 
 class IPcheckController extends Controller
 {
@@ -48,8 +48,8 @@ class IPcheckController extends Controller
             $proxy = $_SERVER['HTTP_X_FORWARDED_FOR'];
         }
 
-        $torr = new IsTor();
-        ($torr.IsTorExitPoint($_SERVER['SERVER_ADDR'], $_SERVER['REMOTE_ADDR'], $_SERVER['SERVER_PORT'])==true) ? $tor = 'yes' : $tor = 'no';
+
+        (IsTor::isTorExitPoint($_SERVER['SERVER_ADDR'], $_SERVER['REMOTE_ADDR'], $_SERVER['SERVER_PORT'])==true) ? $tor = 'yes' : $tor = 'no';
 
         return $this->render('IPcheck/show.html.twig', array(
             'ipaddress' => $ipaddress, 'przegladarka' => $przegladarka, 'isp' => $isp, 'tor' => $tor,
