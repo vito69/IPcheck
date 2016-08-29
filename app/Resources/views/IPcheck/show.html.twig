@@ -22,20 +22,30 @@
         <div class='well'>
             <ul><li>{{ przegladarka }}</li></ul>
             <script>
+                document.write("<div class=\'transparent\'>");
                 document.write("JavaScript:<ul><li> jest w&#322;&#261;czony</li></ul>");
-                document.write("<div class=\'transparent\'>WebRTC leak:<br/>Your local IP addresses:<ul class=\'webrtc\'></ul>Your public IP addresses:<ul class=\'webrtc\'></ul>Your IPv6 addresses:<ul class=\'webrtc\'></ul></div>");
+                document.write("WebRTC leak:<br/>Your local IP addresses:<ul class=\'webrtc\'></ul>Your public IP addresses:<ul class=\'webrtc\'></ul>Your IPv6 addresses:<ul class=\'webrtc\'></ul>");
                 document.write("<iframe id=\'iframe\' sandbox=\'allow-same-origin\' style=\'display: none\'></iframe>");
-                document.write("<br />Rozdzielczo&#347;&#263; ekranu:<ul><li>" + screen.width + " x " + screen.height + "</li></ul>" + "Available screen:<ul><li>" + window.screen.availWidth + " x " + window.screen.availHeight + "</li></ul>");
+                document.write("<br />Rozdzielczo&#347;&#263; ekranu:<ul><li>" + screen.width + " x " + screen.height + "</li></ul>");
+                document.write("Available screen:<ul><li>" + window.screen.availWidth + " x " + window.screen.availHeight + "</li></ul>");
                 scDepth = screen.colorDepth;
-                if( self.screen ) {
+                if( self.screen )
+                {
                     numbage = screen.pixelDepth
                             ? Math.pow( 2, screen.pixelDepth ) // in N4
                             : Math.pow( 2, screen.colorDepth ) // in E4
                 }
-                else { numbage = "" }
-                document.write("<ul><li>U&#380;ywasz: " + numbage + " Kolor&#243;w</li></ul>Glebia kolor&#243;w:<ul><li>" + scDepth + " bit</li></ul>")
-                document.write("Twoja przeg&#261;darka i system z JavaScript:<ul><li>" + navigator.userAgent + "</li></ul>Przegladarka na system:<ul><li>" + navigator.platform + "</li></ul>Java enable:<ul><li>" + navigator.javaEnabled() + "</li></ul>")
-                document.write("JAVA:<ul><li>" + jestJava() + "</li></ul>");
+                else
+                {
+                    numbage = ""
+                }
+                document.write("Liczba kolor&#243;w:<ul><li>" + numbage + "</li></ul>");
+                document.write("Glebia kolor&#243;w:<ul><li>" + scDepth + " bit</li></ul>");
+                document.write("Twoja przeg&#261;darka i system z JavaScript:<ul><li>" + navigator.userAgent + "</li></ul>");
+                document.write("Przegladarka na system:<ul><li>" + navigator.platform + "</li></ul>");
+                document.write("Java enable:<ul><li>" + navigator.javaEnabled() + "</li></ul>");
+                document.write("JAVA:<ul><li>" + jestJava() + "</li></ul></div>");
+                document.write("</div>");
             </script>
             <noscript>
                 JavaScript:<ul><li> jest wy&#322;&#261;czony</li></ul>
