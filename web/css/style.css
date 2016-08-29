@@ -41,12 +41,13 @@ button{
     position: fixed;
     top: 0;
     right: 0;
-    width: 300px;
-    height: 15px;
+    width: 150px;
+    height: 18px;
     background: #0f0;
     -webkit-transform: translateX(25%) translateY(125%) rotate(45deg);
     transform: translateX(25%) translateY(125%) rotate(45deg);
     pointer-events: none;
+    font-size: 100%;
 }
 
 .red{
