@@ -21,12 +21,16 @@
     <h1>Przegl&#261;darka: </h1>
         <div class='well'>
             <ul><li>{{ przegladarka }}</li></ul>
+            Akceptowane dokumenty:<ul><li>{{ dokumenty }}</li></ul>
+            Akceptowane jezyki:<ul><li>{{ jezyki }}</li></ul>
+            Akceptowane kodowanie znak&#243;w:<ul><li>{{ kodowanie }}</li></ul>
+            Ciasteczka<ul><li>{{ ciastka | raw }}</li></ul>
             <script>
                 document.write("<div class=\'transparent\'>");
                 document.write("JavaScript:<ul><li> jest w&#322;&#261;czony</li></ul>");
                 document.write("WebRTC leak:<br/>Your local IP addresses:<ul class=\'webrtc\'></ul>Your public IP addresses:<ul class=\'webrtc\'></ul>Your IPv6 addresses:<ul class=\'webrtc\'></ul>");
                 document.write("<iframe id=\'iframe\' sandbox=\'allow-same-origin\' style=\'display: none\'></iframe>");
-                document.write("<br />Rozdzielczo&#347;&#263; ekranu:<ul><li>" + screen.width + " x " + screen.height + "</li></ul>");
+                document.write("Rozdzielczo&#347;&#263; ekranu:<ul><li>" + screen.width + " x " + screen.height + "</li></ul>");
                 document.write("Available screen:<ul><li>" + window.screen.availWidth + " x " + window.screen.availHeight + "</li></ul>");
                 scDepth = screen.colorDepth;
                 if( self.screen )
@@ -50,10 +54,6 @@
             <noscript>
                 JavaScript:<ul><li> jest wy&#322;&#261;czony</li></ul>
             </noscript>
-            Akceptowane dokumenty:<ul><li>{{ dokumenty }}</li></ul>
-            Akceptowane jezyki:<ul><li>{{ jezyki }}</li></ul>
-            Akceptowane kodowanie znak&#243;w:<ul><li>{{ kodowanie }}</li></ul>
-            Ciasteczka<ul><li>{{ ciastka | raw }}</li></ul>
         </div>
     <h1>ISP: </h1>
     {{ isp | raw }}
