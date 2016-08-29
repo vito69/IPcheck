@@ -48,8 +48,8 @@ class IPcheckController extends Controller
             $proxy = $_SERVER['HTTP_X_FORWARDED_FOR'];
         }
 
-
-        (IsTor::isTorExitPoint($_SERVER['SERVER_ADDR'], $_SERVER['REMOTE_ADDR'], $_SERVER['SERVER_PORT'])==true) ? $tor = 'yes' : $tor = 'no';
+        $torr = new IsTor();
+        ($torr -> isTorExitPoint($_SERVER['SERVER_ADDR'], $_SERVER['REMOTE_ADDR'], $_SERVER['SERVER_PORT'])==true) ? $tor = 'yes' : $tor = 'no';
 
         return $this->render('IPcheck/show.html.twig', array(
             'ipaddress' => $ipaddress, 'przegladarka' => $przegladarka, 'isp' => $isp, 'tor' => $tor,
