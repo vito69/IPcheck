@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: ghost
- * Date: 14.07.16
- * Time: 18:27
- */
 
 namespace AppBundle\Controller;
 
@@ -53,7 +47,13 @@ class IPcheckController extends Controller
         }
         function IsTorExitPoint()
         {
-            if (isset($_SERVER['SERVER_ADDR'])) {
+            function reverseIPOctets($inputip)
+            {
+                $ipoc = explode(".",$inputip);
+                return $ipoc[3].".".$ipoc[2].".".$ipoc[1].".".$ipoc[0];
+            }
+            if (isset($_SERVER['SERVER_ADDR']))
+            {
                 if (gethostbyname(reverseIPOctets($_SERVER['REMOTE_ADDR']) . "." . $_SERVER['SERVER_PORT'] . "." . reverseIPOctets($_SERVER['SERVER_ADDR']) . ".ip-port.exitlist.torproject.org") == "127.0.0.2") {
                     return true;
                 } else {
@@ -63,15 +63,9 @@ class IPcheckController extends Controller
                 return false;
             }
         }
-        function reverseIPOctets($inputip){
-            $ipoc = explode(".",$inputip);
-            return $ipoc[3].".".$ipoc[2].".".$ipoc[1].".".$ipoc[0];
-        }
-        if(IsTorExitPoint()){
-            $tor = 'yes';
-        }else{
-            $tor = 'no';
-        }
+
+        (IsTorExitPoint()==true) ? $tor = 'yes' : $tor = 'no';
+
         return $this->render('IPcheck/show.html.twig', array(
             'ipaddress' => $ipaddress, 'przegladarka' => $przegladarka, 'isp' => $isp, 'tor' => $tor,
             'dokumenty' => $dokumenty, 'jezyki' => $jezyki, 'kodowanie' => $kodowanie, 'ciastka' => $ciastka
