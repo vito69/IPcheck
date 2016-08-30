@@ -11,17 +11,15 @@ use AppBundle\Utils\IspData;
 class IPformController extends Controller
 {
     /**
-     * @Route("/ipform")
+     * @Route("/ipform/{ipad}")
      */
     public function showAction()
     {
-        $ipaddress = $_SERVER['REMOTE_ADDR'];
-
         $ispD = new IspData();
-        $isp = $ispD -> daneISP($ipaddress);
+        $isp = $ispD -> daneISP($ipad);
 
         return $this->render('IPcheck/ipForm.html.twig', array(
-            'ipaddress' => $ipaddress, 'isp' => $isp
+            'ipaddress' => $ipad, 'isp' => $isp
         ));
         //$number = rand(0, 100);
     }
