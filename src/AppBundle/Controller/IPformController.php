@@ -11,7 +11,7 @@ use AppBundle\Utils\IspData;
 class IPformController extends Controller
 {
     /**
-     * @Route("/ipform/{ipad}")
+     * @Route("/{ipad}")
      */
     public function showAction($ipad)
     {
