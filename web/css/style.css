@@ -44,8 +44,8 @@ button{
     width: 200px;
     height: 20px;
     background: #fff;
-    -webkit-transform: translateX(25%) translateY(175%) rotate(45deg);
-    transform: translateX(25%) translateY(175%) rotate(45deg);
+    -webkit-transform: translateX(20%) translateY(175%) rotate(45deg);
+    transform: translateX(20%) translateY(200%) rotate(45deg);
     pointer-events: none;
     font-size: 75%;
     text-align: center;
@@ -58,7 +58,7 @@ button{
     height: 20px;
     background: #fff;
     -webkit-transform: translateX(20%) translateY(175%) rotate(-45deg);
-    transform: translateX(20%) translateY(175%) rotate(-45deg);
+    transform: translateX(20%) translateY(20%) rotate(-45deg);
     pointer-events: none;
     font-size: 75%;
     text-align: center;
