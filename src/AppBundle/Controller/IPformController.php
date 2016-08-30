@@ -21,7 +21,7 @@ class IPformController extends Controller
         }
         else
         {
-            $ipad = "0.0.0.0";
+            $ipad = "Niepoprawny adres IP";
         }
         $ispD = new IspData();
         $isp = $ispD->daneISP($ipad);
