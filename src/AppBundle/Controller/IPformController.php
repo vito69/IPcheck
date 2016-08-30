@@ -15,12 +15,14 @@ class IPformController extends Controller
      */
     public function showAction($ipad)
     {
-        $ispD = new IspData();
-        $isp = $ispD -> daneISP($ipad);
-
-        return $this->render('IPcheck/ipForm.html.twig', array(
-            'ipaddress' => $ipad, 'isp' => $isp
-        ));
+        if(preg_match("([0-9]{1,3}\.){3}[0-9]{1,3}", $ipad))
+        {
+            $ispD = new IspData();
+            $isp = $ispD->daneISP($ipad);
+            return $this->render('IPcheck/ipForm.html.twig', array(
+                'ipaddress' => $ipad, 'isp' => $isp
+            ));
+        }
         //$number = rand(0, 100);
     }
 
