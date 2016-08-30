@@ -15,7 +15,7 @@ class IPformController extends Controller
      */
     public function showAction($ipad)
     {
-        if(preg_match('/(\d+).(\d+).(\d+).(\d+)/', $ipad))
+        if(preg_match('^0*(25[0-5]|2[0-4]\d|1?\d\d?)(\.0*(25[0-5]|2[0-4]\d|1?\d\d?)){3}$', $ipad))
         {
             $ispD = new IspData();
             $isp = $ispD->daneISP($ipad);
