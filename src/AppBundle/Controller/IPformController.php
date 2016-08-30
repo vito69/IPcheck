@@ -13,7 +13,7 @@ class IPformController extends Controller
     /**
      * @Route("/ipform/{ipad}")
      */
-    public function showAction()
+    public function showAction($ipad)
     {
         $ispD = new IspData();
         $isp = $ispD -> daneISP($ipad);
