@@ -11,7 +11,7 @@ use AppBundle\Utils\IspData;
 class IPformController extends Controller
 {
     /**
-     * @Route("/{ipadres}")
+     * @Route("/ipform")
      */
     public function showAction()
     {
