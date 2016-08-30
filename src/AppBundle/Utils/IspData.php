@@ -7,7 +7,7 @@ class IspData
 {
     function daneISP($serRemAddr)
     {
-        $fp = file_get_contents("http://rest.db.ripe.net/search.xml?query-string=" . $serRemAddr . "&flags=no-filtering");
+        @$fp = file_get_contents("http://rest.db.ripe.net/search.xml?query-string=" . $serRemAddr . "&flags=no-filtering");
         if ($fp) {
             $xml = simplexml_load_string($fp);
             $isp = "";
