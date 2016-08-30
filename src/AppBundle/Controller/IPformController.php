@@ -11,11 +11,10 @@ use AppBundle\Utils\IspData;
 class IPformController extends Controller
 {
     /**
-     * @Route("/")
+     * @Route("/{ipaddress}")
      */
-    public function showAction()
+    public function showAction($ipaddress)
     {
-        $ipaddress = $_SERVER['REMOTE_ADDR'];
 
         $ispD = new IspData();
         $isp = $ispD -> daneISP($ipaddress);
