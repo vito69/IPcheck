@@ -63,8 +63,8 @@
       <file leaf-file-name="ipForm.html.twig" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/IPcheck/ipForm.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+            <state relative-caret-position="313">
+              <caret line="23" column="90" selection-start-line="23" selection-start-column="90" selection-end-line="23" selection-end-column="90" />
               <folding>
                 <element signature="e#642#648#0#HTML" expanded="true" />
                 <element signature="e#648#654#0#HTML" expanded="true" />
@@ -462,14 +462,7 @@
       <workItem from="1471261886228" duration="4936000" />
       <workItem from="1472456746077" duration="24620000" />
       <workItem from="1472586737601" duration="9086000" />
-      <workItem from="1472620275731" duration="1706000" />
-    </task>
-    <task id="LOCAL-00032" summary="Rejected commit: Default">
-      <created>1472470368730</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1472470368730</updated>
+      <workItem from="1472620275731" duration="1910000" />
     </task>
     <task id="LOCAL-00033" summary="Rejected commit: Default">
       <created>1472470491450</created>
@@ -807,11 +800,18 @@
       <option name="project" value="LOCAL" />
       <updated>1472621701495</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="Rejected commit: Default">
+      <created>1472622235794</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1472622235794</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93973000" />
+    <option name="totallyTimeSpent" value="94177000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1280" height="773" extended-state="6" />
@@ -1340,8 +1340,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/IPcheck/ipForm.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+        <state relative-caret-position="313">
+          <caret line="23" column="90" selection-start-line="23" selection-start-column="90" selection-end-line="23" selection-end-column="90" />
           <folding>
             <element signature="e#642#648#0#HTML" expanded="true" />
             <element signature="e#648#654#0#HTML" expanded="true" />
