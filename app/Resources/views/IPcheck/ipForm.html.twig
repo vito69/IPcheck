@@ -22,7 +22,7 @@
     <h1>Wprowad&#378; adres IP: </h1>
         <div class='well'>
             <form action="{{ path('app_ipform_show', {'ipad': ipad}) }}" method="post">
-                <input type="text" name="ipad" size=30 id="ipad" value="{{ ipaddress }}"/>
+                <input type="text" name="ipad" size=30 id="ipad"/>
             </form>
         </div>
     {% if isp is defined %}

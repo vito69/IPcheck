@@ -37,9 +37,10 @@
       <file leaf-file-name="show.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/IPcheck/show.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
+            <state relative-caret-position="180">
               <caret line="20" column="63" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="63" />
               <folding>
+                <element signature="e#805#820#0#Twig" expanded="true" />
                 <marker date="1472590044348" expanded="true" signature="1544:1550" ph="..." />
                 <marker date="1472590044348" expanded="true" signature="1550:1556" ph="..." />
                 <marker date="1472590044348" expanded="true" signature="1867:1880" ph="..." />
@@ -63,7 +64,7 @@
         <entry file="file://$PROJECT_DIR$/app/Resources/views/IPcheck/ipForm.html.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="331">
-              <caret line="24" column="55" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
+              <caret line="24" column="64" selection-start-line="24" selection-start-column="64" selection-end-line="24" selection-end-column="64" />
               <folding>
                 <element signature="e#866#881#0#Twig" expanded="true" />
               </folding>
@@ -74,8 +75,8 @@
       <file leaf-file-name="IPformController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/IPformController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <state relative-caret-position="169">
+              <caret line="17" column="64" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
               <folding>
                 <element signature="e#40#99#0#PHP" expanded="true" />
               </folding>
@@ -452,14 +453,7 @@
       <workItem from="1472456746077" duration="24620000" />
       <workItem from="1472586737601" duration="9086000" />
       <workItem from="1472620275731" duration="2336000" />
-      <workItem from="1472672822584" duration="528000" />
-    </task>
-    <task id="LOCAL-00036" summary="Rejected commit: Default">
-      <created>1472472052450</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1472472052450</updated>
+      <workItem from="1472672822584" duration="850000" />
     </task>
     <task id="LOCAL-00037" summary="Rejected commit: Default">
       <created>1472472465815</created>
@@ -797,11 +791,18 @@
       <option name="project" value="LOCAL" />
       <updated>1472673088310</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="Rejected commit: Default">
+      <created>1472673361212</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1472673361212</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95131000" />
+    <option name="totallyTimeSpent" value="95453000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1280" height="773" extended-state="6" />
@@ -860,6 +861,7 @@
         <state relative-caret-position="180">
           <caret line="10" column="22" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="26" />
           <folding>
+            <element signature="e#805#820#0#Twig" expanded="true" />
             <marker date="1472590044348" expanded="true" signature="1544:1550" ph="..." />
             <marker date="1472590044348" expanded="true" signature="1550:1556" ph="..." />
             <marker date="1472590044348" expanded="true" signature="1867:1880" ph="..." />
@@ -916,6 +918,7 @@
         <state relative-caret-position="162">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
+            <element signature="e#805#820#0#Twig" expanded="true" />
             <marker date="1472590044348" expanded="true" signature="1544:1550" ph="..." />
             <marker date="1472590044348" expanded="true" signature="1550:1556" ph="..." />
             <marker date="1472590044348" expanded="true" signature="1867:1880" ph="..." />
@@ -972,6 +975,7 @@
         <state relative-caret-position="162">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
+            <element signature="e#805#820#0#Twig" expanded="true" />
             <marker date="1472590044348" expanded="true" signature="1544:1550" ph="..." />
             <marker date="1472590044348" expanded="true" signature="1550:1556" ph="..." />
             <marker date="1472590044348" expanded="true" signature="1867:1880" ph="..." />
@@ -1028,6 +1032,7 @@
         <state relative-caret-position="180">
           <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
           <folding>
+            <element signature="e#805#820#0#Twig" expanded="true" />
             <marker date="1472590044348" expanded="true" signature="1544:1550" ph="..." />
             <marker date="1472590044348" expanded="true" signature="1550:1556" ph="..." />
             <marker date="1472590044348" expanded="true" signature="1867:1880" ph="..." />
@@ -1084,6 +1089,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="e#805#820#0#Twig" expanded="true" />
             <marker date="1472590044348" expanded="true" signature="1544:1550" ph="..." />
             <marker date="1472590044348" expanded="true" signature="1550:1556" ph="..." />
             <marker date="1472590044348" expanded="true" signature="1867:1880" ph="..." />
@@ -1126,6 +1132,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="e#805#820#0#Twig" expanded="true" />
             <marker date="1472590044348" expanded="true" signature="1544:1550" ph="..." />
             <marker date="1472590044348" expanded="true" signature="1550:1556" ph="..." />
             <marker date="1472590044348" expanded="true" signature="1867:1880" ph="..." />
@@ -1158,6 +1165,7 @@
         <state relative-caret-position="126">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
+            <element signature="e#805#820#0#Twig" expanded="true" />
             <marker date="1472590044348" expanded="true" signature="1544:1550" ph="..." />
             <marker date="1472590044348" expanded="true" signature="1550:1556" ph="..." />
             <marker date="1472590044348" expanded="true" signature="1867:1880" ph="..." />
@@ -1190,6 +1198,7 @@
         <state relative-caret-position="126">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
+            <element signature="e#805#820#0#Twig" expanded="true" />
             <marker date="1472590044348" expanded="true" signature="1544:1550" ph="..." />
             <marker date="1472590044348" expanded="true" signature="1550:1556" ph="..." />
             <marker date="1472590044348" expanded="true" signature="1867:1880" ph="..." />
@@ -1288,11 +1297,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/IPcheckController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding>
+            <element signature="e#40#99#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/IPcheck/show.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
+        <state relative-caret-position="180">
           <caret line="20" column="63" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="63" />
           <folding>
+            <element signature="e#805#820#0#Twig" expanded="true" />
             <marker date="1472590044348" expanded="true" signature="1544:1550" ph="..." />
             <marker date="1472590044348" expanded="true" signature="1550:1556" ph="..." />
             <marker date="1472590044348" expanded="true" signature="1867:1880" ph="..." />
@@ -1311,20 +1331,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/IPcheckController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-          <folding>
-            <element signature="e#40#99#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/IPformController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state relative-caret-position="169">
+          <caret line="17" column="64" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
           <folding>
             <element signature="e#40#99#0#PHP" expanded="true" />
           </folding>
@@ -1334,7 +1344,7 @@
     <entry file="file://$PROJECT_DIR$/app/Resources/views/IPcheck/ipForm.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="331">
-          <caret line="24" column="55" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
+          <caret line="24" column="64" selection-start-line="24" selection-start-column="64" selection-end-line="24" selection-end-column="64" />
           <folding>
             <element signature="e#866#881#0#Twig" expanded="true" />
           </folding>
