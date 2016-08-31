@@ -453,14 +453,7 @@
       <workItem from="1472456746077" duration="24620000" />
       <workItem from="1472586737601" duration="9086000" />
       <workItem from="1472620275731" duration="2336000" />
-      <workItem from="1472672822584" duration="1252000" />
-    </task>
-    <task id="LOCAL-00039" summary="Rejected commit: Default">
-      <created>1472472661045</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1472472661045</updated>
+      <workItem from="1472672822584" duration="1477000" />
     </task>
     <task id="LOCAL-00040" summary="Rejected commit: Default">
       <created>1472472764305</created>
@@ -798,11 +791,18 @@
       <option name="project" value="LOCAL" />
       <updated>1472673869492</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="Rejected commit: Default">
+      <created>1472674081658</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1472674081659</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95855000" />
+    <option name="totallyTimeSpent" value="96080000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1280" height="773" extended-state="6" />
