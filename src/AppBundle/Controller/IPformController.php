@@ -15,9 +15,9 @@ class IPformController extends Controller
      */
     public function showAction($ipad)
     {
+        $ipad  = isset($_POST['ipad']) ? $_POST['ipad'] : $ipad;
         if(filter_var($ipad, FILTER_VALIDATE_IP))
         {
-            $ipad = $ipad;
             $ispD = new IspData();
             $isp = $ispD->daneISP($ipad);
             return $this->render('IPcheck/ipForm.html.twig', array(
@@ -31,9 +31,6 @@ class IPformController extends Controller
                 'ipaddress' => $ipad
             ));
         }
-
-        //$number = rand(0, 100);
     }
-
 }
 ?>
