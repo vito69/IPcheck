@@ -38,7 +38,7 @@
         <entry file="file://$PROJECT_DIR$/app/Resources/views/IPcheck/show.html.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="234">
-              <caret line="20" column="46" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="46" />
+              <caret line="20" column="63" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="63" />
               <folding>
                 <element signature="e#805#820#0#Twig" expanded="true" />
                 <marker date="1472590044348" expanded="true" signature="1544:1550" ph="..." />
@@ -63,11 +63,12 @@
       <file leaf-file-name="ipForm.html.twig" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/IPcheck/ipForm.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
+            <state relative-caret-position="432">
+              <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
               <folding>
                 <element signature="e#642#648#0#HTML" expanded="true" />
                 <element signature="e#648#654#0#HTML" expanded="true" />
+                <element signature="e#866#881#0#Twig" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -461,14 +462,7 @@
       <workItem from="1471261886228" duration="4936000" />
       <workItem from="1472456746077" duration="24620000" />
       <workItem from="1472586737601" duration="9086000" />
-      <workItem from="1472620275731" duration="1171000" />
-    </task>
-    <task id="LOCAL-00031" summary="Rejected commit: Default">
-      <created>1472469395165</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1472469395165</updated>
+      <workItem from="1472620275731" duration="1706000" />
     </task>
     <task id="LOCAL-00032" summary="Rejected commit: Default">
       <created>1472470368730</created>
@@ -806,11 +800,18 @@
       <option name="project" value="LOCAL" />
       <updated>1472621425466</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="Rejected commit: Default">
+      <created>1472621701494</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1472621701495</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93438000" />
+    <option name="totallyTimeSpent" value="93973000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1280" height="773" extended-state="6" />
@@ -1316,7 +1317,7 @@
     <entry file="file://$PROJECT_DIR$/app/Resources/views/IPcheck/show.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
-          <caret line="20" column="46" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="46" />
+          <caret line="20" column="63" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="63" />
           <folding>
             <element signature="e#805#820#0#Twig" expanded="true" />
             <marker date="1472590044348" expanded="true" signature="1544:1550" ph="..." />
@@ -1339,11 +1340,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/IPcheck/ipForm.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
+        <state relative-caret-position="432">
+          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
           <folding>
             <element signature="e#642#648#0#HTML" expanded="true" />
             <element signature="e#648#654#0#HTML" expanded="true" />
+            <element signature="e#866#881#0#Twig" expanded="true" />
           </folding>
         </state>
       </provider>
