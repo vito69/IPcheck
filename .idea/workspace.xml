@@ -4,6 +4,8 @@
     <list default="true" id="2a32051e-adac-4d83-acd5-7324f0e3420e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/IPcheck/ipForm.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/IPcheck/ipForm.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/IPcheck/show.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/IPcheck/show.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Controller/IPformController.php" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/IPformController.php" />
     </list>
     <ignored path="IPcheck.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,33 +40,33 @@
         <entry file="file://$PROJECT_DIR$/app/Resources/views/IPcheck/show.html.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="20" column="54" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="58" />
+              <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
               <folding>
                 <element signature="e#805#820#0#Twig" expanded="true" />
-                <marker date="1472590044348" expanded="true" signature="1544:1550" ph="..." />
-                <marker date="1472590044348" expanded="true" signature="1550:1556" ph="..." />
-                <marker date="1472590044348" expanded="true" signature="1867:1880" ph="..." />
-                <marker date="1472590044348" expanded="true" signature="1939:1945" ph="..." />
-                <marker date="1472590044348" expanded="true" signature="1945:1951" ph="..." />
-                <marker date="1472590044348" expanded="true" signature="2092:2098" ph="..." />
-                <marker date="1472590044348" expanded="true" signature="2098:2104" ph="..." />
-                <marker date="1472590044348" expanded="true" signature="2111:2117" ph="..." />
-                <marker date="1472590044348" expanded="true" signature="2630:2636" ph="..." />
-                <marker date="1472590044348" expanded="true" signature="2708:2714" ph="..." />
-                <marker date="1472590044348" expanded="true" signature="2714:2720" ph="..." />
-                <marker date="1472590044348" expanded="true" signature="2729:2735" ph="..." />
-                <marker date="1472590044348" expanded="true" signature="2821:2827" ph="..." />
-                <marker date="1472590044348" expanded="true" signature="2942:2948" ph="..." />
+                <marker date="1472674863181" expanded="true" signature="1523:1529" ph="..." />
+                <marker date="1472674863181" expanded="true" signature="1529:1535" ph="..." />
+                <marker date="1472674863181" expanded="true" signature="1846:1859" ph="..." />
+                <marker date="1472674863181" expanded="true" signature="1918:1924" ph="..." />
+                <marker date="1472674863181" expanded="true" signature="1924:1930" ph="..." />
+                <marker date="1472674863181" expanded="true" signature="2071:2077" ph="..." />
+                <marker date="1472674863181" expanded="true" signature="2077:2083" ph="..." />
+                <marker date="1472674863181" expanded="true" signature="2090:2096" ph="..." />
+                <marker date="1472674863181" expanded="true" signature="2609:2615" ph="..." />
+                <marker date="1472674863181" expanded="true" signature="2687:2693" ph="..." />
+                <marker date="1472674863181" expanded="true" signature="2693:2699" ph="..." />
+                <marker date="1472674863181" expanded="true" signature="2708:2714" ph="..." />
+                <marker date="1472674863181" expanded="true" signature="2800:2806" ph="..." />
+                <marker date="1472674863181" expanded="true" signature="2921:2927" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ipForm.html.twig" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ipForm.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/IPcheck/ipForm.html.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="313">
-              <caret line="23" column="71" selection-start-line="23" selection-start-column="71" selection-end-line="23" selection-end-column="71" />
+              <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
               <folding>
                 <element signature="e#866#881#0#Twig" expanded="true" />
               </folding>
@@ -72,11 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IPformController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="IPformController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/IPformController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+            <state relative-caret-position="169">
+              <caret line="17" column="74" selection-start-line="17" selection-start-column="74" selection-end-line="17" selection-end-column="74" />
               <folding>
                 <element signature="e#40#99#0#PHP" expanded="true" />
               </folding>
@@ -87,7 +89,7 @@
       <file leaf-file-name="IPcheckController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/IPcheckController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
+            <state relative-caret-position="18">
               <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
               <folding>
                 <element signature="e#40#99#0#PHP" expanded="true" />
@@ -111,11 +113,11 @@
         <option value="$PROJECT_DIR$/src/AppBundle/Utils/IsTor.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/IPcheckController.php" />
         <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
-        <option value="$PROJECT_DIR$/app/Resources/views/IPcheck/show.html.twig" />
         <option value="$PROJECT_DIR$/web/css/style.css" />
         <option value="$PROJECT_DIR$/src/AppBundle/Utils/IspData.php" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Controller/IPformController.php" />
+        <option value="$PROJECT_DIR$/app/Resources/views/IPcheck/show.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/IPcheck/ipForm.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Controller/IPformController.php" />
       </list>
     </option>
   </component>
@@ -453,14 +455,7 @@
       <workItem from="1472456746077" duration="24620000" />
       <workItem from="1472586737601" duration="9086000" />
       <workItem from="1472620275731" duration="2336000" />
-      <workItem from="1472672822584" duration="1477000" />
-    </task>
-    <task id="LOCAL-00040" summary="Rejected commit: Default">
-      <created>1472472764305</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1472472764305</updated>
+      <workItem from="1472672822584" duration="2159000" />
     </task>
     <task id="LOCAL-00041" summary="Rejected commit: Default">
       <created>1472473166084</created>
@@ -798,11 +793,18 @@
       <option name="project" value="LOCAL" />
       <updated>1472674081659</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="Rejected commit: Default">
+      <created>1472674306203</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1472674306204</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96080000" />
+    <option name="totallyTimeSpent" value="96762000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1280" height="773" extended-state="6" />
@@ -862,20 +864,20 @@
           <caret line="10" column="22" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="26" />
           <folding>
             <element signature="e#805#820#0#Twig" expanded="true" />
-            <marker date="1472590044348" expanded="true" signature="1544:1550" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="1550:1556" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="1867:1880" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="1939:1945" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="1945:1951" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2092:2098" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2098:2104" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2111:2117" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2630:2636" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2708:2714" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2714:2720" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2729:2735" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2821:2827" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2942:2948" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="1523:1529" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="1529:1535" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="1846:1859" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="1918:1924" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="1924:1930" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2071:2077" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2077:2083" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2090:2096" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2609:2615" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2687:2693" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2693:2699" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2708:2714" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2800:2806" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2921:2927" ph="..." />
           </folding>
         </state>
       </provider>
@@ -919,20 +921,20 @@
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
             <element signature="e#805#820#0#Twig" expanded="true" />
-            <marker date="1472590044348" expanded="true" signature="1544:1550" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="1550:1556" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="1867:1880" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="1939:1945" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="1945:1951" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2092:2098" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2098:2104" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2111:2117" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2630:2636" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2708:2714" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2714:2720" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2729:2735" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2821:2827" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2942:2948" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="1523:1529" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="1529:1535" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="1846:1859" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="1918:1924" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="1924:1930" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2071:2077" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2077:2083" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2090:2096" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2609:2615" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2687:2693" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2693:2699" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2708:2714" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2800:2806" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2921:2927" ph="..." />
           </folding>
         </state>
       </provider>
@@ -976,20 +978,20 @@
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
             <element signature="e#805#820#0#Twig" expanded="true" />
-            <marker date="1472590044348" expanded="true" signature="1544:1550" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="1550:1556" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="1867:1880" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="1939:1945" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="1945:1951" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2092:2098" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2098:2104" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2111:2117" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2630:2636" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2708:2714" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2714:2720" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2729:2735" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2821:2827" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2942:2948" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="1523:1529" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="1529:1535" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="1846:1859" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="1918:1924" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="1924:1930" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2071:2077" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2077:2083" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2090:2096" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2609:2615" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2687:2693" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2693:2699" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2708:2714" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2800:2806" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2921:2927" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1033,20 +1035,20 @@
           <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
           <folding>
             <element signature="e#805#820#0#Twig" expanded="true" />
-            <marker date="1472590044348" expanded="true" signature="1544:1550" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="1550:1556" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="1867:1880" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="1939:1945" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="1945:1951" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2092:2098" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2098:2104" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2111:2117" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2630:2636" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2708:2714" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2714:2720" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2729:2735" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2821:2827" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2942:2948" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="1523:1529" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="1529:1535" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="1846:1859" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="1918:1924" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="1924:1930" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2071:2077" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2077:2083" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2090:2096" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2609:2615" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2687:2693" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2693:2699" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2708:2714" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2800:2806" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2921:2927" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1090,20 +1092,20 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#805#820#0#Twig" expanded="true" />
-            <marker date="1472590044348" expanded="true" signature="1544:1550" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="1550:1556" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="1867:1880" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="1939:1945" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="1945:1951" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2092:2098" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2098:2104" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2111:2117" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2630:2636" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2708:2714" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2714:2720" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2729:2735" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2821:2827" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2942:2948" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="1523:1529" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="1529:1535" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="1846:1859" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="1918:1924" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="1924:1930" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2071:2077" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2077:2083" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2090:2096" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2609:2615" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2687:2693" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2693:2699" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2708:2714" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2800:2806" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2921:2927" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1133,20 +1135,20 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#805#820#0#Twig" expanded="true" />
-            <marker date="1472590044348" expanded="true" signature="1544:1550" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="1550:1556" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="1867:1880" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="1939:1945" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="1945:1951" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2092:2098" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2098:2104" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2111:2117" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2630:2636" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2708:2714" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2714:2720" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2729:2735" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2821:2827" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2942:2948" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="1523:1529" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="1529:1535" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="1846:1859" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="1918:1924" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="1924:1930" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2071:2077" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2077:2083" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2090:2096" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2609:2615" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2687:2693" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2693:2699" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2708:2714" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2800:2806" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2921:2927" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1166,20 +1168,20 @@
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
             <element signature="e#805#820#0#Twig" expanded="true" />
-            <marker date="1472590044348" expanded="true" signature="1544:1550" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="1550:1556" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="1867:1880" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="1939:1945" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="1945:1951" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2092:2098" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2098:2104" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2111:2117" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2630:2636" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2708:2714" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2714:2720" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2729:2735" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2821:2827" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2942:2948" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="1523:1529" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="1529:1535" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="1846:1859" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="1918:1924" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="1924:1930" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2071:2077" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2077:2083" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2090:2096" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2609:2615" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2687:2693" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2693:2699" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2708:2714" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2800:2806" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2921:2927" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1199,20 +1201,20 @@
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
             <element signature="e#805#820#0#Twig" expanded="true" />
-            <marker date="1472590044348" expanded="true" signature="1544:1550" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="1550:1556" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="1867:1880" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="1939:1945" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="1945:1951" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2092:2098" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2098:2104" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2111:2117" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2630:2636" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2708:2714" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2714:2720" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2729:2735" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2821:2827" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2942:2948" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="1523:1529" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="1529:1535" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="1846:1859" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="1918:1924" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="1924:1930" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2071:2077" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2077:2083" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2090:2096" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2609:2615" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2687:2693" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2693:2699" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2708:2714" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2800:2806" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2921:2927" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1297,9 +1299,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/IPcheck/show.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+          <folding>
+            <element signature="e#805#820#0#Twig" expanded="true" />
+            <marker date="1472674863181" expanded="true" signature="1523:1529" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="1529:1535" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="1846:1859" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="1918:1924" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="1924:1930" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2071:2077" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2077:2083" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2090:2096" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2609:2615" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2687:2693" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2693:2699" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2708:2714" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2800:2806" ph="..." />
+            <marker date="1472674863181" expanded="true" signature="2921:2927" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/IPcheck/ipForm.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
+          <folding>
+            <element signature="e#866#881#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/IPcheckController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
+        <state relative-caret-position="18">
           <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
           <folding>
             <element signature="e#40#99#0#PHP" expanded="true" />
@@ -1309,44 +1345,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/IPformController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        <state relative-caret-position="169">
+          <caret line="17" column="74" selection-start-line="17" selection-start-column="74" selection-end-line="17" selection-end-column="74" />
           <folding>
             <element signature="e#40#99#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/IPcheck/show.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="20" column="54" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="58" />
-          <folding>
-            <element signature="e#805#820#0#Twig" expanded="true" />
-            <marker date="1472590044348" expanded="true" signature="1544:1550" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="1550:1556" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="1867:1880" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="1939:1945" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="1945:1951" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2092:2098" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2098:2104" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2111:2117" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2630:2636" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2708:2714" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2714:2720" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2729:2735" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2821:2827" ph="..." />
-            <marker date="1472590044348" expanded="true" signature="2942:2948" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/IPcheck/ipForm.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="23" column="71" selection-start-line="23" selection-start-column="71" selection-end-line="23" selection-end-column="71" />
-          <folding>
-            <element signature="e#866#881#0#Twig" expanded="true" />
           </folding>
         </state>
       </provider>
