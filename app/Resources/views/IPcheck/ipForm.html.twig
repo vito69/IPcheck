@@ -22,7 +22,8 @@
     <h1>Wprowad&#378; adres IP: </h1>
         <div class='well'>
             <form action="{{ path('app_ipform_show') }}" method="post">
-                <input type="text" name="ipad" size=44 id="ipad" value="{{ ipaddress }}"/>
+                <input type="text" name="ipad" size=39 id="ipad" value="{{ ipaddress }}"/>
+                <button type="button" class="btn btn-success btn-xs btn-round"><span class="glyphicon glyphicon-ok"></span></button>
             </form>
         </div>
     {% if isp is defined %}
