@@ -15,7 +15,7 @@ class IPformController extends Controller
      */
     public function showAction()
     {
-        $ipad  = isset($_POST['ipad']) ? $_POST['ipad'] : "Wpisz adres IP.";
+        $ipad  = isset($_POST['ipad']) ? $_POST['ipad'] : "Wpisz poprawny adres IP.";
         if(filter_var($ipad, FILTER_VALIDATE_IP))
         {
             $ispD = new IspData();
@@ -26,7 +26,7 @@ class IPformController extends Controller
         }
         else
         {
-            $ipad = "Niepoprawny adres IP";
+            $ipad = "Wpisz poprawny adres IP.";
             return $this->render('IPcheck/ipForm.html.twig', array(
                 'ipaddress' => $ipad
             ));
