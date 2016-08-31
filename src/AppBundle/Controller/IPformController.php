@@ -18,16 +18,20 @@ class IPformController extends Controller
         if(filter_var($ipad, FILTER_VALIDATE_IP))
         {
             $ipad = $ipad;
+            $ispD = new IspData();
+            $isp = $ispD->daneISP($ipad);
+            return $this->render('IPcheck/ipForm.html.twig', array(
+                'ipaddress' => $ipad, 'isp' => $isp
+            ));
         }
         else
         {
             $ipad = "Niepoprawny adres IP";
+            return $this->render('IPcheck/ipForm.html.twig', array(
+                'ipaddress' => $ipad
+            ));
         }
-        $ispD = new IspData();
-        $isp = $ispD->daneISP($ipad);
-        return $this->render('IPcheck/ipForm.html.twig', array(
-            'ipaddress' => $ipad, 'isp' => $isp
-        ));
+
         //$number = rand(0, 100);
     }
 
