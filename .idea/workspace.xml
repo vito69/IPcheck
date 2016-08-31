@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2a32051e-adac-4d83-acd5-7324f0e3420e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Controller/IPformController.php" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/IPformController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/IPcheck/ipForm.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/IPcheck/ipForm.html.twig" />
     </list>
     <ignored path="IPcheck.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ipForm.html.twig" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ipForm.html.twig" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/IPcheck/ipForm.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
+            <state relative-caret-position="331">
+              <caret line="24" column="54" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
               <folding>
                 <element signature="e#866#881#0#Twig" expanded="true" />
               </folding>
@@ -72,7 +72,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IPformController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IPformController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/IPformController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="367">
@@ -114,8 +114,8 @@
         <option value="$PROJECT_DIR$/web/css/style.css" />
         <option value="$PROJECT_DIR$/src/AppBundle/Utils/IspData.php" />
         <option value="$PROJECT_DIR$/app/Resources/views/IPcheck/show.html.twig" />
-        <option value="$PROJECT_DIR$/app/Resources/views/IPcheck/ipForm.html.twig" />
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/IPformController.php" />
+        <option value="$PROJECT_DIR$/app/Resources/views/IPcheck/ipForm.html.twig" />
       </list>
     </option>
   </component>
@@ -453,14 +453,7 @@
       <workItem from="1472456746077" duration="24620000" />
       <workItem from="1472586737601" duration="9086000" />
       <workItem from="1472620275731" duration="2336000" />
-      <workItem from="1472672822584" duration="2457000" />
-    </task>
-    <task id="LOCAL-00042" summary="Rejected commit: Default">
-      <created>1472473476042</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1472473476042</updated>
+      <workItem from="1472672822584" duration="2984000" />
     </task>
     <task id="LOCAL-00043" summary="Rejected commit: Default">
       <created>1472473594335</created>
@@ -798,11 +791,18 @@
       <option name="project" value="LOCAL" />
       <updated>1472674988817</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="Rejected commit: Default">
+      <created>1472675286592</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1472675286592</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97060000" />
+    <option name="totallyTimeSpent" value="97587000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1280" height="773" extended-state="6" />
@@ -1331,22 +1331,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/IPcheck/ipForm.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
-          <folding>
-            <element signature="e#866#881#0#Twig" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/IPformController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="367">
           <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
           <folding>
             <element signature="e#40#99#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/IPcheck/ipForm.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="24" column="54" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
+          <folding>
+            <element signature="e#866#881#0#Twig" expanded="true" />
           </folding>
         </state>
       </provider>
