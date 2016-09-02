@@ -76,11 +76,11 @@
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/IPformController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="259">
-              <caret line="21" column="77" selection-start-line="21" selection-start-column="77" selection-end-line="21" selection-end-column="77" />
+              <caret line="21" column="84" selection-start-line="21" selection-start-column="84" selection-end-line="21" selection-end-column="84" />
               <folding>
                 <element signature="e#40#99#0#PHP" expanded="true" />
-                <element signature="e#470#487#0#PHP" expanded="true" />
-                <element signature="e#694#720#0#PHP" expanded="true" />
+                <element signature="e#477#494#0#PHP" expanded="true" />
+                <element signature="e#701#727#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -479,14 +479,7 @@
       <workItem from="1472620275731" duration="2336000" />
       <workItem from="1472672822584" duration="4797000" />
       <workItem from="1472703785574" duration="1857000" />
-      <workItem from="1472801868539" duration="6962000" />
-    </task>
-    <task id="LOCAL-00060" summary="Rejected commit: Default">
-      <created>1472587827758</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1472587827758</updated>
+      <workItem from="1472801868539" duration="7279000" />
     </task>
     <task id="LOCAL-00061" summary="Rejected commit: Default">
       <created>1472588026650</created>
@@ -824,11 +817,18 @@
       <option name="project" value="LOCAL" />
       <updated>1472807597844</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <task id="LOCAL-00109" summary="Rejected commit: Default">
+      <created>1472808838605</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1472808838606</updated>
+    </task>
+    <option name="localTasksCounter" value="110" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108219000" />
+    <option name="totallyTimeSpent" value="108536000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1280" height="773" extended-state="6" />
@@ -1370,11 +1370,11 @@
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/IPformController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
-          <caret line="21" column="77" selection-start-line="21" selection-start-column="77" selection-end-line="21" selection-end-column="77" />
+          <caret line="21" column="84" selection-start-line="21" selection-start-column="84" selection-end-line="21" selection-end-column="84" />
           <folding>
             <element signature="e#40#99#0#PHP" expanded="true" />
-            <element signature="e#470#487#0#PHP" expanded="true" />
-            <element signature="e#694#720#0#PHP" expanded="true" />
+            <element signature="e#477#494#0#PHP" expanded="true" />
+            <element signature="e#701#727#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

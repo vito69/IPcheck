@@ -19,7 +19,7 @@ class IPformController extends Controller
         {
             $ipad = $_POST['ipad'];
             unset($_POST['ipad']);
-            $this->redirectToRoute('app_ipform_show', array('ipad'=> $ipad));
+            return $this->redirectToRoute('app_ipform_show', array('ipad'=> $ipad));
         }
 
         if(filter_var($ipad, FILTER_VALIDATE_IP))
