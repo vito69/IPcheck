@@ -1,10 +1,26 @@
 body{
-    background: linear-gradient(
-            to bottom,
-            #fa0,
-            #ffaa00
-    );
+    background-color: lightgreen;
+    position: relative;
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
     font-size: 200%;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+    0%   {background-color:lightgreen}
+    50%  {background-color:lightblue}
+    100% {background-color:lightgreen}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {background-color:lightgreen}
+    50%  {background-color:lightblue}
+    100% {background-color:lightgreen}
 }
 button{
     border: none;
