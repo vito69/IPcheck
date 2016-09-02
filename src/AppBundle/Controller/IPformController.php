@@ -11,11 +11,11 @@ use AppBundle\Utils\IspData;
 class IPformController extends Controller
 {
     /**
-     * @Route("/sprawdzanieIP")
+     * @Route("/{ipad}")
      */
-    public function showAction()
+    public function showAction($ipad)
     {
-        $ipad  = isset($_POST['ipad']) ? $_POST['ipad'] : "Wpisz poprawny adres IP.";
+        $ipad  = isset($_POST['ipad']) ? $_POST['ipad'] : $ipad;
         if(filter_var($ipad, FILTER_VALIDATE_IP))
         {
             $ispD = new IspData();
