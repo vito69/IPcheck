@@ -98,8 +98,11 @@ button{
     0% {
         border-color: transparent;
     }
-    100% {
+    50% {
         border-color: #fff;
+    }
+    100% {
+        border-color: transparent;
     }
 }
 .red{
