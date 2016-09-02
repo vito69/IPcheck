@@ -19,6 +19,7 @@ class IPformController extends Controller
         {
             $ipad = $_POST['ipad'];
             unset($_POST['ipad']);
+            header("Location: {{ path('app_ipform_show', {'ipad': $ipad}) }}");
         }
 
         if(filter_var($ipad, FILTER_VALIDATE_IP))
