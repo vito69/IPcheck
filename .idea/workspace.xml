@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a32051e-adac-4d83-acd5-7324f0e3420e" name="Default" comment="Rejected commit: Default">
+    <list default="true" id="2a32051e-adac-4d83-acd5-7324f0e3420e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Controller/IPformController.php" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/IPformController.php" />
     </list>
@@ -40,7 +40,7 @@
             <state relative-caret-position="180">
               <caret line="20" column="65" selection-start-line="20" selection-start-column="65" selection-end-line="20" selection-end-column="65" />
               <folding>
-                <element signature="e#805#820#0#Twig" expanded="true" />
+                <element signature="e#12#26#0#Twig" expanded="false" />
                 <marker date="1472804460466" expanded="true" signature="1544:1550" ph="..." />
                 <marker date="1472804460466" expanded="true" signature="1550:1556" ph="..." />
                 <marker date="1472804460466" expanded="true" signature="1867:1880" ph="..." />
@@ -66,7 +66,7 @@
             <state relative-caret-position="295">
               <caret line="23" column="62" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
               <folding>
-                <element signature="e#866#881#0#Twig" expanded="true" />
+                <element signature="e#12#26#0#Twig" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -75,8 +75,8 @@
       <file leaf-file-name="IPformController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/IPformController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="17" column="71" selection-start-line="17" selection-start-column="71" selection-end-line="17" selection-end-column="71" />
+            <state relative-caret-position="259">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
                 <element signature="e#40#99#0#PHP" expanded="true" />
               </folding>
@@ -455,14 +455,7 @@
       <workItem from="1472620275731" duration="2336000" />
       <workItem from="1472672822584" duration="4797000" />
       <workItem from="1472703785574" duration="1857000" />
-      <workItem from="1472801868539" duration="3700000" />
-    </task>
-    <task id="LOCAL-00056" summary="Rejected commit: Default">
-      <created>1472483921452</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1472483921452</updated>
+      <workItem from="1472801868539" duration="4589000" />
     </task>
     <task id="LOCAL-00057" summary="Rejected commit: Default">
       <created>1472485277487</created>
@@ -800,11 +793,18 @@
       <option name="project" value="LOCAL" />
       <updated>1472805226174</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="Rejected commit: Default">
+      <created>1472805576623</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1472805576623</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104957000" />
+    <option name="totallyTimeSpent" value="105846000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1280" height="773" extended-state="6" />
@@ -863,7 +863,7 @@
         <state relative-caret-position="180">
           <caret line="10" column="22" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="26" />
           <folding>
-            <element signature="e#805#820#0#Twig" expanded="true" />
+            <element signature="e#12#26#0#Twig" expanded="false" />
             <marker date="1472804460466" expanded="true" signature="1544:1550" ph="..." />
             <marker date="1472804460466" expanded="true" signature="1550:1556" ph="..." />
             <marker date="1472804460466" expanded="true" signature="1867:1880" ph="..." />
@@ -920,7 +920,7 @@
         <state relative-caret-position="162">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
-            <element signature="e#805#820#0#Twig" expanded="true" />
+            <element signature="e#12#26#0#Twig" expanded="false" />
             <marker date="1472804460466" expanded="true" signature="1544:1550" ph="..." />
             <marker date="1472804460466" expanded="true" signature="1550:1556" ph="..." />
             <marker date="1472804460466" expanded="true" signature="1867:1880" ph="..." />
@@ -977,7 +977,7 @@
         <state relative-caret-position="162">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
-            <element signature="e#805#820#0#Twig" expanded="true" />
+            <element signature="e#12#26#0#Twig" expanded="false" />
             <marker date="1472804460466" expanded="true" signature="1544:1550" ph="..." />
             <marker date="1472804460466" expanded="true" signature="1550:1556" ph="..." />
             <marker date="1472804460466" expanded="true" signature="1867:1880" ph="..." />
@@ -1034,7 +1034,7 @@
         <state relative-caret-position="180">
           <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
           <folding>
-            <element signature="e#805#820#0#Twig" expanded="true" />
+            <element signature="e#12#26#0#Twig" expanded="false" />
             <marker date="1472804460466" expanded="true" signature="1544:1550" ph="..." />
             <marker date="1472804460466" expanded="true" signature="1550:1556" ph="..." />
             <marker date="1472804460466" expanded="true" signature="1867:1880" ph="..." />
@@ -1091,7 +1091,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#805#820#0#Twig" expanded="true" />
+            <element signature="e#12#26#0#Twig" expanded="false" />
             <marker date="1472804460466" expanded="true" signature="1544:1550" ph="..." />
             <marker date="1472804460466" expanded="true" signature="1550:1556" ph="..." />
             <marker date="1472804460466" expanded="true" signature="1867:1880" ph="..." />
@@ -1134,7 +1134,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#805#820#0#Twig" expanded="true" />
+            <element signature="e#12#26#0#Twig" expanded="false" />
             <marker date="1472804460466" expanded="true" signature="1544:1550" ph="..." />
             <marker date="1472804460466" expanded="true" signature="1550:1556" ph="..." />
             <marker date="1472804460466" expanded="true" signature="1867:1880" ph="..." />
@@ -1167,7 +1167,7 @@
         <state relative-caret-position="126">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
-            <element signature="e#805#820#0#Twig" expanded="true" />
+            <element signature="e#12#26#0#Twig" expanded="false" />
             <marker date="1472804460466" expanded="true" signature="1544:1550" ph="..." />
             <marker date="1472804460466" expanded="true" signature="1550:1556" ph="..." />
             <marker date="1472804460466" expanded="true" signature="1867:1880" ph="..." />
@@ -1200,7 +1200,7 @@
         <state relative-caret-position="126">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
-            <element signature="e#805#820#0#Twig" expanded="true" />
+            <element signature="e#12#26#0#Twig" expanded="false" />
             <marker date="1472804460466" expanded="true" signature="1544:1550" ph="..." />
             <marker date="1472804460466" expanded="true" signature="1550:1556" ph="..." />
             <marker date="1472804460466" expanded="true" signature="1867:1880" ph="..." />
@@ -1314,7 +1314,7 @@
         <state relative-caret-position="180">
           <caret line="20" column="65" selection-start-line="20" selection-start-column="65" selection-end-line="20" selection-end-column="65" />
           <folding>
-            <element signature="e#805#820#0#Twig" expanded="true" />
+            <element signature="e#12#26#0#Twig" expanded="false" />
             <marker date="1472804460466" expanded="true" signature="1544:1550" ph="..." />
             <marker date="1472804460466" expanded="true" signature="1550:1556" ph="..." />
             <marker date="1472804460466" expanded="true" signature="1867:1880" ph="..." />
@@ -1338,15 +1338,15 @@
         <state relative-caret-position="295">
           <caret line="23" column="62" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
           <folding>
-            <element signature="e#866#881#0#Twig" expanded="true" />
+            <element signature="e#12#26#0#Twig" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/IPformController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="17" column="71" selection-start-line="17" selection-start-column="71" selection-end-line="17" selection-end-column="71" />
+        <state relative-caret-position="259">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
             <element signature="e#40#99#0#PHP" expanded="true" />
           </folding>

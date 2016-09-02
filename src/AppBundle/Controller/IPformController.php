@@ -15,7 +15,12 @@ class IPformController extends Controller
      */
     public function showAction($ipad)
     {
-        $ipad  = isset($_POST['ipad']) ? $this->$_POST['ipad'] : $ipad;
+        if (isset($_POST['ipad']))
+        {
+            $ipad = $_POST['ipad'];
+            unset($_POST['ipad']);
+        }
+
         if(filter_var($ipad, FILTER_VALIDATE_IP))
         {
             $ispD = new IspData();
