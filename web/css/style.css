@@ -2,9 +2,9 @@ body{
     background-color: lightgreen;
     position: relative;
     -webkit-animation-name: example; /* Chrome, Safari, Opera */
-    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 7s; /* Chrome, Safari, Opera */
     animation-name: example;
-    animation-duration: 4s;
+    animation-duration: 7s;
     animation-iteration-count: infinite;
     font-size: 200%;
 }
@@ -12,14 +12,14 @@ body{
 /* Chrome, Safari, Opera */
 @-webkit-keyframes example {
     0%   {background-color:rgb(102,204,102)}
-    50%  {background-color:rgb(255,241,100)}
+    50%  {background-color:rgb(214,229,100)}
     100% {background-color:rgb(102,204,102)}
 }
 
 /* Standard syntax */
 @keyframes example {
     0%   {background-color:rgb(102,204,102)}
-    50%  {background-color:rgb(255,241,100)}
+    50%  {background-color:rgb(214,229,100)}
     100% {background-color:rgb(102,204,102)}
 }
 button{
