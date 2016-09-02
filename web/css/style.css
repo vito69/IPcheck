@@ -2,9 +2,9 @@ body{
     background-color: lightgreen;
     position: relative;
     -webkit-animation-name: example; /* Chrome, Safari, Opera */
-    -webkit-animation-duration: 7s; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 60s; /* Chrome, Safari, Opera */
     animation-name: example;
-    animation-duration: 7s;
+    animation-duration: 60s;
     animation-iteration-count: infinite;
     font-size: 200%;
 }
