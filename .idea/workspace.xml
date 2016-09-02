@@ -38,7 +38,7 @@
         <entry file="file://$PROJECT_DIR$/app/Resources/views/IPcheck/show.html.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="20" column="64" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="64" />
+              <caret line="20" column="60" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="60" />
               <folding>
                 <element signature="e#805#820#0#Twig" expanded="true" />
                 <marker date="1472804460466" expanded="true" signature="1544:1550" ph="..." />
@@ -76,10 +76,11 @@
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/IPformController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="259">
-              <caret line="21" column="79" selection-start-line="21" selection-start-column="79" selection-end-line="21" selection-end-column="79" />
+              <caret line="21" column="77" selection-start-line="21" selection-start-column="77" selection-end-line="21" selection-end-column="77" />
               <folding>
                 <element signature="e#40#99#0#PHP" expanded="true" />
-                <element signature="e#696#722#0#PHP" expanded="true" />
+                <element signature="e#470#487#0#PHP" expanded="true" />
+                <element signature="e#694#720#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -292,6 +293,28 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IPcheck" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IPcheck" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -456,14 +479,7 @@
       <workItem from="1472620275731" duration="2336000" />
       <workItem from="1472672822584" duration="4797000" />
       <workItem from="1472703785574" duration="1857000" />
-      <workItem from="1472801868539" duration="5718000" />
-    </task>
-    <task id="LOCAL-00059" summary="Rejected commit: Default">
-      <created>1472587461761</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1472587461762</updated>
+      <workItem from="1472801868539" duration="6962000" />
     </task>
     <task id="LOCAL-00060" summary="Rejected commit: Default">
       <created>1472587827758</created>
@@ -801,11 +817,18 @@
       <option name="project" value="LOCAL" />
       <updated>1472806721820</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="Rejected commit: Default">
+      <created>1472807597843</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1472807597844</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106975000" />
+    <option name="totallyTimeSpent" value="108219000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1280" height="773" extended-state="6" />
@@ -1323,7 +1346,7 @@
     <entry file="file://$PROJECT_DIR$/app/Resources/views/IPcheck/show.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="20" column="64" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="64" />
+          <caret line="20" column="60" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="60" />
           <folding>
             <element signature="e#805#820#0#Twig" expanded="true" />
             <marker date="1472804460466" expanded="true" signature="1544:1550" ph="..." />
@@ -1347,10 +1370,11 @@
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/IPformController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
-          <caret line="21" column="79" selection-start-line="21" selection-start-column="79" selection-end-line="21" selection-end-column="79" />
+          <caret line="21" column="77" selection-start-line="21" selection-start-column="77" selection-end-line="21" selection-end-column="77" />
           <folding>
             <element signature="e#40#99#0#PHP" expanded="true" />
-            <element signature="e#696#722#0#PHP" expanded="true" />
+            <element signature="e#470#487#0#PHP" expanded="true" />
+            <element signature="e#694#720#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
