@@ -13,8 +13,8 @@ class Menu
 {
     function myMenu()
     {
-        $url1 = "<?php echo $view['router']->generate('app_ipcheck_show') ?>";
-        $url2 = "<?php echo $view['router']->generate('app_ipcheck_show', array('ipad' => ipaddress)) ?>";
+        $url1 = "{{ path('app_ipform_show') }}";
+        $url2 = "{{ path('app_ipform_show', {'ipad': ipaddress}) }}";
         $menu = "<nav>";
         $menu .= "<input type='checkbox' id='mobile-menu-toggle' class='mobile-menu-toggle mobile-menu-toggle-button'>";
         $menu .= "<ul id='plain-menu' class='mobile-toggleable-menu mobile-left'>";
