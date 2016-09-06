@@ -1,0 +1,10 @@
+<nav>
+    <input type="checkbox" id="mobile-menu-toggle" class="mobile-menu-toggle mobile-menu-toggle-button">
+    <ul id="plain-menu" class="mobile-toggleable-menu mobile-left">
+
+        <li><a href="{{ path('app_ipcheck_show') }}">Home</a></li>
+        <li><a href="{{ path('app_ipform_show', {'ipad': ipaddress}) }}">Check other IP</a></li>
+
+    </ul>
+    <label class="mobile-left mobmenu-toggle" for="mobile-menu-toggle">+</label>
+</nav>

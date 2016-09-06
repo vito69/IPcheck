@@ -11,7 +11,7 @@
     <script src="{{ asset('js/main.js') }}"></script>
 {% endblock %}
 {% block body %}
-    {{ menu | raw }}
+    {{ include ('menu.html.twig') }}
     <div class="container">
         <h1>Wprowad&#378; adres IP: </h1>
         <div class='well'>

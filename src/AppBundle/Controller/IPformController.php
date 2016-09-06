@@ -17,8 +17,8 @@ class IPformController extends Controller
      */
     public function showAction($ipad)
     {
-        $menuM = new Menu();
-        $menu = $menuM -> myMenu();
+        //$menuM = new Menu();
+        //$menu = $menuM -> myMenu();
 
         if (isset($_POST['ipad']))
         {
@@ -32,14 +32,14 @@ class IPformController extends Controller
             $ispD = new IspData();
             $isp = $ispD->daneISP($ipad);
             return $this->render('IPcheck/ipForm.html.twig', array(
-                'ipaddress' => $ipad, 'menu' => $menu, 'isp' => $isp
+                'ipaddress' => $ipad, 'isp' => $isp
             ));
         }
         else
         {
             $ipad = "Wpisz poprawny adres IP.";
             return $this->render('IPcheck/ipForm.html.twig', array(
-                'ipaddress' => $ipad, 'menu' => $menu
+                'ipaddress' => $ipad
             ));
         }
     }
