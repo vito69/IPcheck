@@ -4,6 +4,7 @@
 {% block stylesheets %}
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/menu.css') }}">
 {% endblock %}
 {% block javascripts %}
     <script src="{{ asset('js/jquery.min.js') }}"></script>
@@ -13,10 +14,14 @@
 {% endblock %}
 {% block body %}
     <div class="container">
-    <div class='la'>Sprawd&#378; inne IP</div>
-    <a href="{{ path('app_ipform_show', {'ipad': ipaddress}) }}">
-        <div class="arrow-right"></div>
-    </a>
+        <nav>
+            <input type="checkbox" id="mobile-menu-toggle" class="mobile-menu-toggle mobile-menu-toggle-button">
+            <ul id="plain-menu" class="mobile-toggleable-menu mobile-left">
+                <li>Home</li>
+                <li><a href="{{ path('app_ipform_show', {'ipad': ipaddress}) }}">Check other IP</a></li>
+            </ul>
+            <label class="mobile-left mobmenu-toggle" for="mobile-menu-toggle">+</label>
+        </nav>
     <h1>Tw&#243;j publiczny adres IP: </h1><div class='well'>{{ ipaddress }}<p style='float: right'>TOR: {{ tor }}</p></div>
     <h1>Przegl&#261;darka: </h1>
         <div class='well'>

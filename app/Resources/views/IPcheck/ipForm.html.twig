@@ -4,6 +4,7 @@
 {% block stylesheets %}
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/menu.css') }}">
 {% endblock %}
 {% block javascripts %}
     <script src="{{ asset('js/jquery.min.js') }}"></script>
@@ -11,10 +12,15 @@
 {% endblock %}
 {% block body %}
     <div class="container">
-    <div class='la'>Wr&#243;&#263; do IPcheck</div>
-    <a href="{{ path('app_ipcheck_show') }}">
-        <div class="arrow-left"></div>
-    </a>
+        <nav>
+        <input type="checkbox" id="mobile-menu-toggle" class="mobile-menu-toggle mobile-menu-toggle-button">
+        <ul id="plain-menu" class="mobile-toggleable-menu mobile-left">
+            <li><a href="{{ path('app_ipcheck_show') }}">Home</a></li>
+            <li>Check other IP</li>
+        </ul>
+        <label class="mobile-left mobmenu-toggle" for="mobile-menu-toggle">+</label>
+        </nav>
+
     <h1>Wprowad&#378; adres IP: </h1>
         <div class='well'>
             <form action="{{ path('app_ipform_show', {'ipad': ipaddress}) }}" method="post">
