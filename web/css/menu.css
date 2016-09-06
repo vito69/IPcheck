@@ -105,9 +105,6 @@
         background-color: #222;
         color: orange;
 }
-.active {
-    background-color:#000;
-}
 .mobmenu-toggle:hover {
         background-color: darkOrange;
 }
