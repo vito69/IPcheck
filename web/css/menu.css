@@ -115,8 +115,8 @@
             -webkit-transform: rotate(-180deg);
     }
 }
-li.home,
-li.checkIP {
+body.home .mobile-toggleable-menu li.home,
+body.checkIP .mobile-toggleable-menu li.checkIP {
     background-color: #222;
     color: orange;
 }
