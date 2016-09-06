@@ -12,8 +12,9 @@
     <script src="{{ asset('js/WebRTC.js') }}"></script>
     <script src="{{ asset('js/deployJava.js') }}"></script>
 {% endblock %}
+{% block theme "home" %}
 {% block body %}
-    {% block theme %}home{% endblock %}
+
     {{ include ('menu.html.twig') }}
     <div class="container">
     <h1>Tw&#243;j publiczny adres IP: </h1><div class='well'>{{ ipaddress }}<p style='float: right'>TOR: {{ tor }}</p></div>
