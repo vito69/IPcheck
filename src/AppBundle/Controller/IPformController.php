@@ -8,8 +8,6 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
 use AppBundle\Utils\IspData;
 
-use AppBundle\Utils\Menu;
-
 class IPformController extends Controller
 {
     /**
@@ -17,9 +15,6 @@ class IPformController extends Controller
      */
     public function showAction($ipad)
     {
-        //$menuM = new Menu();
-        //$menu = $menuM -> myMenu();
-
         if (isset($_POST['ipad']))
         {
             $ipad = $_POST['ipad'];
