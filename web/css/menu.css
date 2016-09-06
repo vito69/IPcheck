@@ -115,4 +115,8 @@
             -webkit-transform: rotate(-180deg);
     }
 }
-
+li.home,
+li.checkIP {
+    background-color: #222;
+    color: orange;
+}
