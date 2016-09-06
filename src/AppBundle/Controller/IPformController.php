@@ -18,7 +18,7 @@ class IPformController extends Controller
     public function showAction($ipad)
     {
         $menuM = new Menu();
-        $menu = $menuM => myMenu();
+        $menu = $menuM -> myMenu();
 
         if (isset($_POST['ipad']))
         {
