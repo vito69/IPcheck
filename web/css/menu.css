@@ -105,11 +105,11 @@
         background-color: #222;
         color: orange;
 }
-.mobmenu-toggle:hover {
-        background-color: darkOrange;
-}
 .active {
     background-color:#000;
+}
+.mobmenu-toggle:hover {
+        background-color: darkOrange;
 }
 @media handheld, screen and (max-width: 500px) {
     .mobile-menu-toggle-button:checked ~ .mobmenu-toggle {
