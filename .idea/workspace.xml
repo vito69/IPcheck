@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a32051e-adac-4d83-acd5-7324f0e3420e" name="Default" comment="Rejected commit: Default">
+    <list default="true" id="2a32051e-adac-4d83-acd5-7324f0e3420e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/menu.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/menu.html.twig" />
     </list>
@@ -57,10 +57,10 @@
       <file leaf-file-name="menu.html.twig" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/menu.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="180">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding>
-                <element signature="e#357#372#0#Twig" expanded="true" />
+                <element signature="e#326#341#0#Twig" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -533,14 +533,7 @@
       <workItem from="1472672822584" duration="4797000" />
       <workItem from="1472703785574" duration="1857000" />
       <workItem from="1472801868539" duration="11639000" />
-      <workItem from="1473147750545" duration="20229000" />
-    </task>
-    <task id="LOCAL-00102" summary="Rejected commit: Default">
-      <created>1472804638713</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1472804638713</updated>
+      <workItem from="1473147750545" duration="20325000" />
     </task>
     <task id="LOCAL-00103" summary="Rejected commit: Default">
       <created>1472804846387</created>
@@ -878,11 +871,18 @@
       <option name="project" value="LOCAL" />
       <updated>1473173374468</updated>
     </task>
-    <option name="localTasksCounter" value="151" />
+    <task id="LOCAL-00151" summary="Rejected commit: Default">
+      <created>1473174249488</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1473174249488</updated>
+    </task>
+    <option name="localTasksCounter" value="152" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133125000" />
+    <option name="totallyTimeSpent" value="133221000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1280" height="773" extended-state="6" />
@@ -1392,10 +1392,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/menu.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="180">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
-            <element signature="e#357#372#0#Twig" expanded="true" />
+            <element signature="e#326#341#0#Twig" expanded="true" />
           </folding>
         </state>
       </provider>
