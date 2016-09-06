@@ -11,7 +11,7 @@ namespace AppBundle\Utils;
 
 class Menu
 {
-    function myMenu()
+    public function myMenu()
     {
         $url1 = "{{ path('app_ipform_show') }}";
         $url2 = "{{ path('app_ipform_show', {'ipad': ipaddress}) }}";
