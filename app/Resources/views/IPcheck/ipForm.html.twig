@@ -11,11 +11,9 @@
     <script src="{{ asset('js/main.js') }}"></script>
 {% endblock %}
 {% block body %}
+    {{ menu | raw }}
     <div class="container">
-
-        {{ menu | raw }}
-
-    <h1>Wprowad&#378; adres IP: </h1>
+        <h1>Wprowad&#378; adres IP: </h1>
         <div class='well'>
             <form action="{{ path('app_ipform_show', {'ipad': ipaddress}) }}" method="post">
                 <input type="text" name="ipad" size=22 id="ipad" value="{{ ipaddress }}"/>
