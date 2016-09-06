@@ -10,8 +10,8 @@
     <script src="{{ asset('js/jquery.min.js') }}"></script>
     <script src="{{ asset('js/main.js') }}"></script>
 {% endblock %}
-
-    <body class='checkIP'>
+{% block body %}
+    {% block theme 'checkIP' %}
     {{ include ('menu.html.twig') }}
     <div class="container">
         <h1>Wprowad&#378; adres IP: </h1>
@@ -26,5 +26,4 @@
         {{ isp | raw }}
     {% endif %}
     </div>
-    </body>
-
+{% endblock %}
