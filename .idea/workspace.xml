@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a32051e-adac-4d83-acd5-7324f0e3420e" name="Default" comment="Rejected commit: Default">
+    <list default="true" id="2a32051e-adac-4d83-acd5-7324f0e3420e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Utils/poxy/index.inc.php" afterPath="$PROJECT_DIR$/src/AppBundle/Utils/poxy/index.inc.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Utils/poxy/index.php" afterPath="$PROJECT_DIR$/src/AppBundle/Utils/poxy/index.php" />
     </list>
     <ignored path="IPcheck.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,21 +54,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.inc.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.inc.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Utils/poxy/index.inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="95" column="189" selection-start-line="95" selection-start-column="189" selection-end-line="95" selection-end-column="189" />
+            <state relative-caret-position="277">
+              <caret line="91" column="22" selection-start-line="91" selection-start-column="22" selection-end-line="91" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Utils/poxy/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="134" column="30" selection-start-line="134" selection-start-column="30" selection-end-line="134" selection-end-column="30" />
+            <state relative-caret-position="189">
+              <caret line="41" column="7" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="7" />
               <folding>
                 <marker date="1473503795639" expanded="true" signature="41897:42099" ph="..." />
               </folding>
@@ -83,6 +82,7 @@
             <state relative-caret-position="306">
               <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="36" />
               <folding>
+                <element signature="e#12#26#0#Twig" expanded="false" />
                 <marker date="1473491395397" expanded="true" signature="1355:1361" ph="..." />
                 <marker date="1473491395397" expanded="true" signature="1361:1367" ph="..." />
                 <marker date="1473491395397" expanded="true" signature="1678:1691" ph="..." />
@@ -531,14 +531,7 @@
       <workItem from="1472703785574" duration="1857000" />
       <workItem from="1472801868539" duration="11639000" />
       <workItem from="1473147750545" duration="22466000" />
-      <workItem from="1473487074211" duration="17084000" />
-    </task>
-    <task id="LOCAL-00129" summary="Rejected commit: Default">
-      <created>1473163624844</created>
-      <option name="number" value="00129" />
-      <option name="presentableId" value="LOCAL-00129" />
-      <option name="project" value="LOCAL" />
-      <updated>1473163624844</updated>
+      <workItem from="1473487074211" duration="18097000" />
     </task>
     <task id="LOCAL-00130" summary="Rejected commit: Default">
       <created>1473163838626</created>
@@ -876,11 +869,18 @@
       <option name="project" value="LOCAL" />
       <updated>1473503679994</updated>
     </task>
-    <option name="localTasksCounter" value="178" />
+    <task id="LOCAL-00178" summary="Rejected commit: Default">
+      <created>1473504925757</created>
+      <option name="number" value="00178" />
+      <option name="presentableId" value="LOCAL-00178" />
+      <option name="project" value="LOCAL" />
+      <updated>1473504925757</updated>
+    </task>
+    <option name="localTasksCounter" value="179" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152446000" />
+    <option name="totallyTimeSpent" value="153459000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1280" height="773" extended-state="6" />
@@ -962,6 +962,7 @@
         <state relative-caret-position="180">
           <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
           <folding>
+            <element signature="e#12#26#0#Twig" expanded="false" />
             <marker date="1473491395397" expanded="true" signature="1355:1361" ph="..." />
             <marker date="1473491395397" expanded="true" signature="1361:1367" ph="..." />
             <marker date="1473491395397" expanded="true" signature="1678:1691" ph="..." />
@@ -1016,6 +1017,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="e#12#26#0#Twig" expanded="false" />
             <marker date="1473491395397" expanded="true" signature="1355:1361" ph="..." />
             <marker date="1473491395397" expanded="true" signature="1361:1367" ph="..." />
             <marker date="1473491395397" expanded="true" signature="1678:1691" ph="..." />
@@ -1056,6 +1058,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="e#12#26#0#Twig" expanded="false" />
             <marker date="1473491395397" expanded="true" signature="1355:1361" ph="..." />
             <marker date="1473491395397" expanded="true" signature="1361:1367" ph="..." />
             <marker date="1473491395397" expanded="true" signature="1678:1691" ph="..." />
@@ -1088,6 +1091,7 @@
         <state relative-caret-position="126">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
+            <element signature="e#12#26#0#Twig" expanded="false" />
             <marker date="1473491395397" expanded="true" signature="1355:1361" ph="..." />
             <marker date="1473491395397" expanded="true" signature="1361:1367" ph="..." />
             <marker date="1473491395397" expanded="true" signature="1678:1691" ph="..." />
@@ -1120,6 +1124,7 @@
         <state relative-caret-position="126">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
+            <element signature="e#12#26#0#Twig" expanded="false" />
             <marker date="1473491395397" expanded="true" signature="1355:1361" ph="..." />
             <marker date="1473491395397" expanded="true" signature="1361:1367" ph="..." />
             <marker date="1473491395397" expanded="true" signature="1678:1691" ph="..." />
@@ -1267,7 +1272,7 @@
         <state relative-caret-position="342">
           <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="47" />
           <folding>
-            <element signature="e#12#26#0#Twig" expanded="true" />
+            <element signature="e#12#26#0#Twig" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1314,6 +1319,7 @@
         <state relative-caret-position="306">
           <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="36" />
           <folding>
+            <element signature="e#12#26#0#Twig" expanded="false" />
             <marker date="1473491395397" expanded="true" signature="1355:1361" ph="..." />
             <marker date="1473491395397" expanded="true" signature="1361:1367" ph="..." />
             <marker date="1473491395397" expanded="true" signature="1678:1691" ph="..." />
@@ -1332,21 +1338,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Utils/poxy/index.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="95" column="189" selection-start-line="95" selection-start-column="189" selection-end-line="95" selection-end-column="189" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Utils/poxy/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="134" column="30" selection-start-line="134" selection-start-column="30" selection-end-line="134" selection-end-column="30" />
+        <state relative-caret-position="189">
+          <caret line="41" column="7" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="7" />
           <folding>
             <marker date="1473503795639" expanded="true" signature="41897:42099" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Utils/poxy/index.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="91" column="22" selection-start-line="91" selection-start-column="22" selection-end-line="91" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
