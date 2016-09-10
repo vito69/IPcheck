@@ -88,7 +88,7 @@ switch ($data['category'])
     <ul id="form">
       <li id="address_bar"><label>Web Address <input id="address_box" type="text" name="<?php echo $GLOBALS['_config']['url_var_name'] ?>" value="<?php echo isset($GLOBALS['_url']) ? htmlspecialchars($GLOBALS['_url']) : '' ?>" onfocus="this.select()" /></label> <input id="go" type="submit" value="Go" /></li>
       <?php
-      
+      global $_flags;
       foreach ($_flags as $flag_name => $flag_value)
       {
           if (!$GLOBALS['_frozen_flags'][$flag_name])
