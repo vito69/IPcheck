@@ -2,5 +2,8 @@
 <form action="{{ path('app_ipform_show', {'ipad': ipaddress}) }}" method="post">
     <input type="text" name="ipad" size=22 id="ipad" value="{{ ipaddress }}"/>
     <button class="btn btn-success btn-mini">></button>
+    {% if tor %}
+        <div class='tor'>TOR: {{ tor }}</div>
+    {% endif %}
 </form>
 
