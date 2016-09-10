@@ -17,10 +17,7 @@
     <div class="container">
         <h1>Wprowad&#378; adres IP: </h1>
         <div class='well'>
-            <form action="{{ path('app_ipform_show', {'ipad': ipaddress}) }}" method="post">
-                <input type="text" name="ipad" size=22 id="ipad" value="{{ ipaddress }}"/>
-                <button class="btn btn-success btn-mini">></button>
-            </form>
+            {{ include ('form4ip.html.twig') }}
         </div>
     {% if isp is defined %}
         <h1>ISP: </h1>
