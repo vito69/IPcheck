@@ -99,9 +99,6 @@ switch ($data['category'])
       ?>
     </ul>
   </form>
-  <!-- The least you could do is leave this link back as it is. This software is provided for free and I ask nothing in return except that you leave this link intact
-       You're more likely to recieve support should you require some if I see a link back in your installation than if not -->
-  <div id="footer"><a href="http://whitefyre.com/poxy/">PHProxy</a> <?php echo $GLOBALS['_version'] ?></div>
 </div>
 </body>
 </html>
