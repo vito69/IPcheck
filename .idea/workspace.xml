@@ -57,15 +57,15 @@
       <file leaf-file-name="index.inc.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Utils/poxy/index.inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+            <state relative-caret-position="281">
+              <caret line="92" column="19" selection-start-line="92" selection-start-column="19" selection-end-line="92" selection-end-column="19" />
               <folding>
-                <marker date="1473515957799" expanded="true" signature="959:1040" ph="..." />
-                <marker date="1473515957799" expanded="true" signature="962:1040" ph="..." />
-                <marker date="1473515957799" expanded="true" signature="1127:1172" ph="..." />
-                <marker date="1473515957799" expanded="true" signature="3871:3883" ph="..." />
-                <marker date="1473515957799" expanded="true" signature="3993:4028" ph="..." />
-                <marker date="1473515957799" expanded="true" signature="3993:4065" ph="..." />
+                <marker date="1473516425281" expanded="true" signature="959:1040" ph="..." />
+                <marker date="1473516425281" expanded="true" signature="962:1040" ph="..." />
+                <marker date="1473516425281" expanded="true" signature="1127:1172" ph="..." />
+                <marker date="1473516425281" expanded="true" signature="3871:3883" ph="..." />
+                <marker date="1473516425281" expanded="true" signature="3996:4031" ph="..." />
+                <marker date="1473516425281" expanded="true" signature="3996:4072" ph="..." />
               </folding>
             </state>
           </provider>
@@ -522,14 +522,7 @@
       <workItem from="1472703785574" duration="1857000" />
       <workItem from="1472801868539" duration="11639000" />
       <workItem from="1473147750545" duration="22466000" />
-      <workItem from="1473487074211" duration="27842000" />
-    </task>
-    <task id="LOCAL-00139" summary="Rejected commit: Default">
-      <created>1473167566032</created>
-      <option name="number" value="00139" />
-      <option name="presentableId" value="LOCAL-00139" />
-      <option name="project" value="LOCAL" />
-      <updated>1473167566033</updated>
+      <workItem from="1473487074211" duration="28351000" />
     </task>
     <task id="LOCAL-00140" summary="Rejected commit: Default">
       <created>1473167743172</created>
@@ -867,11 +860,18 @@
       <option name="project" value="LOCAL" />
       <updated>1473515113506</updated>
     </task>
-    <option name="localTasksCounter" value="188" />
+    <task id="LOCAL-00188" summary="Rejected commit: Default">
+      <created>1473515973844</created>
+      <option name="number" value="00188" />
+      <option name="presentableId" value="LOCAL-00188" />
+      <option name="project" value="LOCAL" />
+      <updated>1473515973844</updated>
+    </task>
+    <option name="localTasksCounter" value="189" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163204000" />
+    <option name="totallyTimeSpent" value="163713000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1280" height="773" extended-state="6" />
@@ -1335,15 +1335,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Utils/poxy/index.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+        <state relative-caret-position="281">
+          <caret line="92" column="19" selection-start-line="92" selection-start-column="19" selection-end-line="92" selection-end-column="19" />
           <folding>
-            <marker date="1473515957799" expanded="true" signature="959:1040" ph="..." />
-            <marker date="1473515957799" expanded="true" signature="962:1040" ph="..." />
-            <marker date="1473515957799" expanded="true" signature="1127:1172" ph="..." />
-            <marker date="1473515957799" expanded="true" signature="3871:3883" ph="..." />
-            <marker date="1473515957799" expanded="true" signature="3993:4028" ph="..." />
-            <marker date="1473515957799" expanded="true" signature="3993:4065" ph="..." />
+            <marker date="1473516425281" expanded="true" signature="959:1040" ph="..." />
+            <marker date="1473516425281" expanded="true" signature="962:1040" ph="..." />
+            <marker date="1473516425281" expanded="true" signature="1127:1172" ph="..." />
+            <marker date="1473516425281" expanded="true" signature="3871:3883" ph="..." />
+            <marker date="1473516425281" expanded="true" signature="3996:4031" ph="..." />
+            <marker date="1473516425281" expanded="true" signature="3996:4072" ph="..." />
           </folding>
         </state>
       </provider>
