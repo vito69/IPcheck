@@ -90,7 +90,7 @@ $_insert            = array();
 // END CONFIGURABLE OPTIONS. The ride for you ends here. Close the file.
 //
 
-$_iflags            = '';
+//$_iflags            = '';
 $_system            = array
                     (
                         'ssl'          => extension_loaded('openssl') && version_compare(PHP_VERSION, '4.3.0', '>='),
