@@ -121,5 +121,8 @@
 body.home li.home,
 body.checkIP li.checkIP {
     background-color: #222;
+}
+body.home a,
+body.checkIP a {
     color: orange;
 }
