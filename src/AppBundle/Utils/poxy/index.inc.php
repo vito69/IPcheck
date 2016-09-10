@@ -89,7 +89,7 @@ switch ($data['category'])
     echo "<form method='post' action=". $_SERVER['PHP_SELF'] .">";
     echo "<ul id='form'><li id='address_bar'><label>Web Address";
 
-    echo "<input id='address_box' type='text' name='". $_config['url_var_name'] ."' value='. isset($_url) ? htmlspecialchars($_url) : '' .'/>";
+    echo "<input id='address_box' type='text' name='". $_config['url_var_name'] ."' value='". isset($_url) ? htmlspecialchars($_url) : '' ."'/>";
 
     echo "</label><input id='go' type='submit' value='Go' /></li>";
 
