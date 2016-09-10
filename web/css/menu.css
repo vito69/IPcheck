@@ -119,10 +119,12 @@
     }
 }
 body.home li.home,
-body.checkIP li.checkIP {
+body.checkIP li.checkIP,
+body.checkIP li.proxy{
     background-color: #222;
 }
-body.home a,
-body.checkIP a {
+body.home a.home,
+body.checkIP a.checkIP,
+body.checkIP a.proxy{
     color: orange;
 }
