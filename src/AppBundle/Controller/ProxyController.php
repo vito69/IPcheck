@@ -7,7 +7,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 class ProxyController extends Controller
 {
     /**
-     * @Route("/proxy")
+     * @Route("/proxy/")
      */
     public function prox(){
         ob_start();
