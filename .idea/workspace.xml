@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2a32051e-adac-4d83-acd5-7324f0e3420e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/IPcheck/proxy.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/IPcheck/proxy.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/poxy/index.inc.php" afterPath="$PROJECT_DIR$/web/poxy/index.inc.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/poxy/index.php" afterPath="$PROJECT_DIR$/web/poxy/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/poxy/style.css" afterPath="$PROJECT_DIR$/web/poxy/style.css" />
@@ -569,14 +568,7 @@
       <workItem from="1472703785574" duration="1857000" />
       <workItem from="1472801868539" duration="11639000" />
       <workItem from="1473147750545" duration="22466000" />
-      <workItem from="1473487074211" duration="11942000" />
-    </task>
-    <task id="LOCAL-00123" summary="Rejected commit: Default">
-      <created>1473156682358</created>
-      <option name="number" value="00123" />
-      <option name="presentableId" value="LOCAL-00123" />
-      <option name="project" value="LOCAL" />
-      <updated>1473156682358</updated>
+      <workItem from="1473487074211" duration="11989000" />
     </task>
     <task id="LOCAL-00124" summary="Rejected commit: Default">
       <created>1473160256857</created>
@@ -914,11 +906,18 @@
       <option name="project" value="LOCAL" />
       <updated>1473498291990</updated>
     </task>
-    <option name="localTasksCounter" value="172" />
+    <task id="LOCAL-00172" summary="Rejected commit: Default">
+      <created>1473499760253</created>
+      <option name="number" value="00172" />
+      <option name="presentableId" value="LOCAL-00172" />
+      <option name="project" value="LOCAL" />
+      <updated>1473499760253</updated>
+    </task>
+    <option name="localTasksCounter" value="173" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147304000" />
+    <option name="totallyTimeSpent" value="147351000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1280" height="773" extended-state="6" />
