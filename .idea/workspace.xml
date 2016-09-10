@@ -57,9 +57,12 @@
       <file leaf-file-name="index.inc.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Utils/poxy/index.inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="103" column="7" selection-start-line="103" selection-start-column="7" selection-end-line="103" selection-end-column="7" />
-              <folding />
+            <state relative-caret-position="312">
+              <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+              <folding>
+                <marker date="1473509141497" expanded="true" signature="3951:4014" ph="..." />
+                <marker date="1473509141497" expanded="true" signature="3951:4051" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,6 +85,7 @@
             <state relative-caret-position="216">
               <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="26" />
               <folding>
+                <element signature="e#12#26#0#Twig" expanded="false" />
                 <marker date="1473491395397" expanded="true" signature="1355:1361" ph="..." />
                 <marker date="1473491395397" expanded="true" signature="1361:1367" ph="..." />
                 <marker date="1473491395397" expanded="true" signature="1678:1691" ph="..." />
@@ -530,14 +534,7 @@
       <workItem from="1472703785574" duration="1857000" />
       <workItem from="1472801868539" duration="11639000" />
       <workItem from="1473147750545" duration="22466000" />
-      <workItem from="1473487074211" duration="19652000" />
-    </task>
-    <task id="LOCAL-00134" summary="Rejected commit: Default">
-      <created>1473164581224</created>
-      <option name="number" value="00134" />
-      <option name="presentableId" value="LOCAL-00134" />
-      <option name="project" value="LOCAL" />
-      <updated>1473164581224</updated>
+      <workItem from="1473487074211" duration="21313000" />
     </task>
     <task id="LOCAL-00135" summary="Rejected commit: Default">
       <created>1473164856036</created>
@@ -875,11 +872,18 @@
       <option name="project" value="LOCAL" />
       <updated>1473507207383</updated>
     </task>
-    <option name="localTasksCounter" value="183" />
+    <task id="LOCAL-00183" summary="Rejected commit: Default">
+      <created>1473507494164</created>
+      <option name="number" value="00183" />
+      <option name="presentableId" value="LOCAL-00183" />
+      <option name="project" value="LOCAL" />
+      <updated>1473507494164</updated>
+    </task>
+    <option name="localTasksCounter" value="184" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155014000" />
+    <option name="totallyTimeSpent" value="156675000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1280" height="773" extended-state="6" />
@@ -961,6 +965,7 @@
         <state relative-caret-position="180">
           <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
           <folding>
+            <element signature="e#12#26#0#Twig" expanded="false" />
             <marker date="1473491395397" expanded="true" signature="1355:1361" ph="..." />
             <marker date="1473491395397" expanded="true" signature="1361:1367" ph="..." />
             <marker date="1473491395397" expanded="true" signature="1678:1691" ph="..." />
@@ -1015,6 +1020,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="e#12#26#0#Twig" expanded="false" />
             <marker date="1473491395397" expanded="true" signature="1355:1361" ph="..." />
             <marker date="1473491395397" expanded="true" signature="1361:1367" ph="..." />
             <marker date="1473491395397" expanded="true" signature="1678:1691" ph="..." />
@@ -1055,6 +1061,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="e#12#26#0#Twig" expanded="false" />
             <marker date="1473491395397" expanded="true" signature="1355:1361" ph="..." />
             <marker date="1473491395397" expanded="true" signature="1361:1367" ph="..." />
             <marker date="1473491395397" expanded="true" signature="1678:1691" ph="..." />
@@ -1087,6 +1094,7 @@
         <state relative-caret-position="126">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
+            <element signature="e#12#26#0#Twig" expanded="false" />
             <marker date="1473491395397" expanded="true" signature="1355:1361" ph="..." />
             <marker date="1473491395397" expanded="true" signature="1361:1367" ph="..." />
             <marker date="1473491395397" expanded="true" signature="1678:1691" ph="..." />
@@ -1119,6 +1127,7 @@
         <state relative-caret-position="126">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
+            <element signature="e#12#26#0#Twig" expanded="false" />
             <marker date="1473491395397" expanded="true" signature="1355:1361" ph="..." />
             <marker date="1473491395397" expanded="true" signature="1361:1367" ph="..." />
             <marker date="1473491395397" expanded="true" signature="1678:1691" ph="..." />
@@ -1281,25 +1290,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/ProxyController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-          <folding>
-            <element signature="e#39#98#0#PHP" expanded="true" />
-            <element signature="e#407#432#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/IPcheck/proxy.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/menu.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -1308,21 +1298,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Utils/poxy/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="41" column="7" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="7" />
-          <folding>
-            <marker date="1473503795639" expanded="true" signature="41897:42099" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/IPcheck/show.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="26" />
           <folding>
+            <element signature="e#12#26#0#Twig" expanded="false" />
             <marker date="1473491395397" expanded="true" signature="1355:1361" ph="..." />
             <marker date="1473491395397" expanded="true" signature="1361:1367" ph="..." />
             <marker date="1473491395397" expanded="true" signature="1678:1691" ph="..." />
@@ -1341,11 +1322,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Utils/poxy/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="41" column="7" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="7" />
+          <folding>
+            <marker date="1473503795639" expanded="true" signature="41897:42099" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/IPcheck/proxy.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/ProxyController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding>
+            <element signature="e#39#98#0#PHP" expanded="true" />
+            <element signature="e#407#432#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Utils/poxy/index.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="103" column="7" selection-start-line="103" selection-start-column="7" selection-end-line="103" selection-end-column="7" />
-          <folding />
+        <state relative-caret-position="312">
+          <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+          <folding>
+            <marker date="1473509141497" expanded="true" signature="3951:4014" ph="..." />
+            <marker date="1473509141497" expanded="true" signature="3951:4051" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
