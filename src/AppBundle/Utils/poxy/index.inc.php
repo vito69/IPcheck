@@ -83,26 +83,22 @@ switch ($data['category'])
         echo 'An error has occured while trying to browse through the proxy. <br />' . $message . '</p></div>';
         break;
 }
-    echo "<div class='well'>
-          <form method='post' action=". $_SERVER['PHP_SELF'] .">
-          <ul id='form'>
-          <li id='address_bar'><label>Web Address";
-    global $_config, $_url;
+    global $_config, $_url, $_flags, $_frozen_flags, $_labels;
 
-    echo "<input id='address_box' type='text' name=/". $_config['url_var_name']/" value=/". isset($_url) ? htmlspecialchars($_url) : ''/"/>";
+    echo "<div class='well'>";
+    echo "<form method='post' action=". $_SERVER['PHP_SELF'] .">";
+    echo "<ul id='form'><li id='address_bar'><label>Web Address";
+
+    echo "<input id='address_box' type='text' name='". $_config['url_var_name'] ."' value='. isset($_url) ? htmlspecialchars($_url) : '' .'/>";
 
     echo "</label><input id='go' type='submit' value='Go' /></li>";
-    global $_flags, $_frozen_flags;
+
     foreach ($_flags as $flag_name => $flag_value)
     {
         if (!$_frozen_flags[$flag_name])
         {
-            echo '<li class="option"><label><input type="checkbox" name="' . $GLOBALS['_config']['flags_var_name'] . '[' . $flag_name . ']"' . ($flag_value ? ' checked="checked"' : '') . ' />' . $GLOBALS['_labels'][$flag_name][1] . '</label></li>' . "\n";
+            echo '<li class="option"><label><input type="checkbox" name="' . $_config['flags_var_name'] . '[' . $flag_name . ']"' . ($flag_value ? ' checked="checked"' : '') . ' />' . $_labels[$flag_name][1] . '</label></li>' . "\n";
         }
     }
-    echo "</ul>
-        </form>
-        </div>
-        </div>
-        </body>
-        </html>";
+    echo "</ul></form></div></div></body></html>";
+?>

@@ -136,9 +136,11 @@ function show_report($data)
     exit(0);
 }
 
+global $_http_host;
+
 function add_cookie($name, $value, $expires = 0)
 {
-    return rawurlencode(rawurlencode($name)) . '=' . rawurlencode(rawurlencode($value)) . (empty($expires) ? '' : '; expires=' . gmdate('D, d-M-Y H:i:s \G\M\T', $expires)) . '; path=/; domain=.' . $GLOBALS['_http_host'];
+    return rawurlencode(rawurlencode($name)) . '=' . rawurlencode(rawurlencode($value)) . (empty($expires) ? '' : '; expires=' . gmdate('D, d-M-Y H:i:s \G\M\T', $expires)) . '; path=/; domain=.' . $_http_host;
 }
 
 function set_post_vars($array, $parent_key = null)
@@ -241,16 +243,17 @@ function complete_url($url, $proxify = true)
     $hash_pos = strrpos($url, '#');
     $fragment = $hash_pos !== false ? '#' . substr($url, $hash_pos) : '';
     $sep_pos  = strpos($url, '://');
-    
+
+    global $_base, $_script_url, $_config;
     if ($sep_pos === false || $sep_pos > 5)
     {
         switch ($url{0})
         {
             case '/':
-                $url = substr($url, 0, 2) === '//' ? $GLOBALS['_base']['scheme'] . ':' . $url : $GLOBALS['_base']['scheme'] . '://' . $GLOBALS['_base']['host'] . $GLOBALS['_base']['port_ext'] . $url;
+                $url = substr($url, 0, 2) === '//' ? $_base['scheme'] . ':' . $url : $_base['scheme'] . '://' . $_base['host'] . $_base['port_ext'] . $url;
                 break;
             case '?':
-                $url = $GLOBALS['_base']['base'] . '/' . $GLOBALS['_base']['file'] . $url;
+                $url = $_base['base'] . '/' . $_base['file'] . $url;
                 break;
             case '#':
                 $proxify = false;
@@ -262,11 +265,11 @@ function complete_url($url, $proxify = true)
                     break;
                 }
             default:
-                $url = $GLOBALS['_base']['base'] . '/' . $url;
+                $url = $_base['base'] . '/' . $url;
         }
     }
 
-    return $proxify ? "{$GLOBALS['_script_url']}?{$GLOBALS['_config']['url_var_name']}=" . encode_url($url) . $fragment : $url;
+    return $proxify ? "{$_script_url}?{$_config['url_var_name']}=" . encode_url($url) . $fragment : $url;
 }
 
 function proxify_inline_css($css)
