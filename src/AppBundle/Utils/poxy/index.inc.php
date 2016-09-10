@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 if (basename(__FILE__) == basename($_SERVER['PHP_SELF']))
 {
@@ -6,7 +6,7 @@ if (basename(__FILE__) == basename($_SERVER['PHP_SELF']))
 }
 
 echo '<?xml version="1.0" encoding="utf-8"?>';
-
+global $_script_base, $_url_parts, $_config, $_url, $_flags, $_frozen_flags, $_labels, $_content_length;
 ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -19,7 +19,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>';
 <div id="container">
   <h1 id="title">PHProxy</h1>
   <ul id="navigation">
-    <li><a href="<?php echo $GLOBALS['_script_base'] ?>">URL Form</a></li>
+    <li><a href="<?php echo $_script_base ?>">URL Form</a></li>
     <li><a href="javascript:alert('cookie managment has not been implemented yet')">Manage Cookies</a></li>
   </ul>
 <?php
@@ -29,9 +29,9 @@ switch ($data['category'])
     case 'auth':
 ?>
   <div id="auth"><p>
-  <b>Enter your username and password for "<?php echo htmlspecialchars($data['realm']) ?>" on <?php echo $GLOBALS['_url_parts']['host'] ?></b>
+  <b>Enter your username and password for "<?php echo htmlspecialchars($data['realm']) ?>" on <?php echo $_url_parts['host'] ?></b>
   <form method="post" action="">
-    <input type="hidden" name="<?php echo $GLOBALS['_config']['basic_auth_var_name'] ?>" value="<?php echo base64_encode($data['realm']) ?>" />
+    <input type="hidden" name="<?php echo $_config['basic_auth_var_name'] ?>" value="<?php echo base64_encode($data['realm']) ?>" />
     <label>Username <input type="text" name="username" value="" /></label> <label>Password <input type="password" name="password" value="" /></label> <input type="submit" value="Login" />
   </form></p></div>
 <?php
@@ -69,8 +69,8 @@ switch ($data['category'])
                 {
                     case 'file_size':
                         $message = 'The file your are attempting to download is too large.<br />'
-                                 . 'Maxiumum permissible file size is <b>' . number_format($GLOBALS['_config']['max_file_size']/1048576, 2) . ' MB</b><br />'
-                                 . 'Requested file size is <b>' . number_format($GLOBALS['_content_length']/1048576, 2) . ' MB</b>';
+                                 . 'Maxiumum permissible file size is <b>' . number_format($_config['max_file_size']/1048576, 2) . ' MB</b><br />'
+                                 . 'Requested file size is <b>' . number_format($_content_length/1048576, 2) . ' MB</b>';
                         break;
                     case 'hotlinking':
                         $message = 'It appears that you are trying to access a resource through this proxy from a remote Website.<br />'
@@ -83,13 +83,12 @@ switch ($data['category'])
         echo 'An error has occured while trying to browse through the proxy. <br />' . $message . '</p></div>';
         break;
 }
-    global $_config, $_url, $_flags, $_frozen_flags, $_labels;
 
     echo "<div class='well'>";
     echo "<form method='post' action=". $_SERVER['PHP_SELF'] .">";
     echo "<ul id='form'><li id='address_bar'><label>Web Address";
 
-    echo "<input id='address_box' type='text' name='". $_config['url_var_name'] ."' value='". isset($_url) ? htmlspecialchars($_url) : '' ."'/>";
+    echo "<input id='address_box' type='text' name=". $_config['url_var_name'] ." value=". isset($_url) ? htmlspecialchars($_url) : '' ."/>";
 
     echo "</label><input id='go' type='submit' value='Go' /></li>";
 
