@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2a32051e-adac-4d83-acd5-7324f0e3420e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/IPcheck/proxy.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/IPcheck/proxy.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/poxy/index.inc.php" afterPath="$PROJECT_DIR$/web/poxy/index.inc.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/poxy/index.php" afterPath="$PROJECT_DIR$/web/poxy/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/poxy/style.css" afterPath="$PROJECT_DIR$/web/poxy/style.css" />
@@ -59,8 +60,8 @@
       <file leaf-file-name="show.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/IPcheck/show.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="14" column="20" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="24" />
+            <state relative-caret-position="198">
+              <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="36" />
               <folding>
                 <marker date="1473491395397" expanded="true" signature="1355:1361" ph="..." />
                 <marker date="1473491395397" expanded="true" signature="1361:1367" ph="..." />
@@ -81,17 +82,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="proxy.html.twig" pinned="false" current-in-tab="false">
+      <file leaf-file-name="proxy.html.twig" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/IPcheck/proxy.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="72">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProxyController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ProxyController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/ProxyController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
@@ -100,6 +101,16 @@
                 <element signature="e#39#98#0#PHP" expanded="true" />
                 <element signature="e#410#435#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form4ip.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/form4ip.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" column="7" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="55" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -558,14 +569,7 @@
       <workItem from="1472703785574" duration="1857000" />
       <workItem from="1472801868539" duration="11639000" />
       <workItem from="1473147750545" duration="22466000" />
-      <workItem from="1473487074211" duration="10906000" />
-    </task>
-    <task id="LOCAL-00122" summary="Rejected commit: Default">
-      <created>1473156189677</created>
-      <option name="number" value="00122" />
-      <option name="presentableId" value="LOCAL-00122" />
-      <option name="project" value="LOCAL" />
-      <updated>1473156189677</updated>
+      <workItem from="1473487074211" duration="11942000" />
     </task>
     <task id="LOCAL-00123" summary="Rejected commit: Default">
       <created>1473156682358</created>
@@ -903,11 +907,18 @@
       <option name="project" value="LOCAL" />
       <updated>1473497593940</updated>
     </task>
-    <option name="localTasksCounter" value="171" />
+    <task id="LOCAL-00171" summary="Rejected commit: Default">
+      <created>1473498291990</created>
+      <option name="number" value="00171" />
+      <option name="presentableId" value="LOCAL-00171" />
+      <option name="project" value="LOCAL" />
+      <updated>1473498291990</updated>
+    </task>
+    <option name="localTasksCounter" value="172" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="146268000" />
+    <option name="totallyTimeSpent" value="147304000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1280" height="773" extended-state="6" />
@@ -1306,14 +1317,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/form4ip.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="7" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/IPcheck/ipForm.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -1328,45 +1331,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-205">
           <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/IPcheck/show.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="24" />
-          <folding>
-            <marker date="1473491395397" expanded="true" signature="1355:1361" ph="..." />
-            <marker date="1473491395397" expanded="true" signature="1361:1367" ph="..." />
-            <marker date="1473491395397" expanded="true" signature="1678:1691" ph="..." />
-            <marker date="1473491395397" expanded="true" signature="1750:1756" ph="..." />
-            <marker date="1473491395397" expanded="true" signature="1756:1762" ph="..." />
-            <marker date="1473491395397" expanded="true" signature="1903:1909" ph="..." />
-            <marker date="1473491395397" expanded="true" signature="1909:1915" ph="..." />
-            <marker date="1473491395397" expanded="true" signature="1922:1928" ph="..." />
-            <marker date="1473491395397" expanded="true" signature="2441:2447" ph="..." />
-            <marker date="1473491395397" expanded="true" signature="2519:2525" ph="..." />
-            <marker date="1473491395397" expanded="true" signature="2525:2531" ph="..." />
-            <marker date="1473491395397" expanded="true" signature="2540:2546" ph="..." />
-            <marker date="1473491395397" expanded="true" signature="2632:2638" ph="..." />
-            <marker date="1473491395397" expanded="true" signature="2753:2759" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/menu.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="56" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/IPcheck/proxy.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1389,6 +1353,53 @@
             <element signature="e#39#98#0#PHP" expanded="true" />
             <element signature="e#410#435#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/form4ip.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/menu.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="56" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/IPcheck/show.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="36" />
+          <folding>
+            <marker date="1473491395397" expanded="true" signature="1355:1361" ph="..." />
+            <marker date="1473491395397" expanded="true" signature="1361:1367" ph="..." />
+            <marker date="1473491395397" expanded="true" signature="1678:1691" ph="..." />
+            <marker date="1473491395397" expanded="true" signature="1750:1756" ph="..." />
+            <marker date="1473491395397" expanded="true" signature="1756:1762" ph="..." />
+            <marker date="1473491395397" expanded="true" signature="1903:1909" ph="..." />
+            <marker date="1473491395397" expanded="true" signature="1909:1915" ph="..." />
+            <marker date="1473491395397" expanded="true" signature="1922:1928" ph="..." />
+            <marker date="1473491395397" expanded="true" signature="2441:2447" ph="..." />
+            <marker date="1473491395397" expanded="true" signature="2519:2525" ph="..." />
+            <marker date="1473491395397" expanded="true" signature="2525:2531" ph="..." />
+            <marker date="1473491395397" expanded="true" signature="2540:2546" ph="..." />
+            <marker date="1473491395397" expanded="true" signature="2632:2638" ph="..." />
+            <marker date="1473491395397" expanded="true" signature="2753:2759" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/IPcheck/proxy.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
