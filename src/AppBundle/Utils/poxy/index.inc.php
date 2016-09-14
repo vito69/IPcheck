@@ -9,8 +9,8 @@ echo '<?xml version="1.0" encoding="utf-8"?>';
 global $_script_base, $_url_parts, $_config, $_url, $_flags, $_frozen_flags, $_labels, $_content_length;
 ?>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<!DOCTYPE html>
+<html>
 <head>
   <title>PHProxy</title>
   <link rel="stylesheet" type="text/css" href="style.css" title="Default Theme" media="all" />
@@ -89,9 +89,9 @@ switch ($data['category'])
     echo "<ul id='form'><li id='address_bar'><label>Web Address";
 
     echo "<input id='address_box' type='text' name='";
-    $_config['url_var_name'];
+    echo "$_config['url_var_name']";
     echo "' value='";
-    $_url ? htmlspecialchars($_url) : '';
+    echo "$_url ? htmlspecialchars($_url) : ''";
     echo "'/>";
 
     echo "</label><input id='go' type='submit' value='Go' /></li>";
