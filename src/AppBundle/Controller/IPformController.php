@@ -30,6 +30,15 @@ class IPformController extends Controller
                 'ipaddress' => $ipad, 'isp' => $isp
             ));
         }
+        elseif(filter_var($ipad, FILTER_VALIDATE_URL))
+        {
+            $ipad = gethostbyname($ipad);
+            $ispD = new IspData();
+            $isp = $ispD->daneISP($ipad);
+            return $this->render('IPcheck/ipForm.html.twig', array(
+                'ipaddress' => $ipad, 'isp' => $isp
+            ));
+        }
         else
         {
             $ipad = "Wpisz poprawny adres IP.";
